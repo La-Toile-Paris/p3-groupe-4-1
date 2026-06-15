@@ -2,3 +2,29 @@ html {
   height: 100%;
   width: 100%;
 }
+:root{
+  --color-primary: #1F3D2E;
+  --color-secondary: #ED93B1;
+  --color-green-salade: #D6E8D5;
+  --color-rose-light: #FBEAF0;
+
+  
+
+}
+*{
+  font-family: "Inter",sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+  font-family: "Caprasimo", sans-serif;
+}
+button{
+  border-radius: 16px;
+}
+.button-primary{
+background-color: var(--color-primary);
+}
+.button-secondary{
+  background-color: var(--color-secondary);
+}
+
+
