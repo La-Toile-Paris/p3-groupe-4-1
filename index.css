@@ -13,16 +13,19 @@ header{
 
 }
 .container-img{
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
+   
     width: 50%;
-    height: 60wh ;
-}
-img{
     
+}
+.mockup{
+height: 80% ;
+width: 35%;
 }
 .slogan{
    width: 50%;
    height: 60wh ;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-weight: bolder;
 } 
