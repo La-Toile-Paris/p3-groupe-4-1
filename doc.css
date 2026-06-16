@@ -86,8 +86,12 @@ header {
 }
 
 .header-text h1 {
-  color: white;
+  color: #ED93B1;
   font-size: 88px;
+  background-color: rgba(0, 0, 0, 0.374);
+  border-radius: 12%;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 .header-icon {
   display: flex;
@@ -121,8 +125,8 @@ header {
   display: flex;
 }
 .contexte-img{
-  width: 60%;
-  height: 80%;
+  width: 70%;
+  height: 70%;
   margin: auto;
 }
 .contexte-img img{
@@ -132,10 +136,10 @@ header {
 }
 
 .contexte-box {
-  max-width: 900px;
+  max-width: 800px;
   margin: auto;
-  padding: 40px;
-  max-height: 50%;
+  padding: 35px;
+  max-height: 70%;
   display: flex;
   flex-direction: column;
 
@@ -147,7 +151,7 @@ header {
 }
 
 .contexte-box h1 {
-  font-size: 48px;
+  font-size: 38px;
   margin-bottom: 20px;
   color: #ED93B1 ;
 }
