@@ -8,10 +8,148 @@ html {
   margin:0px; */
 }
 
+header {
+  background-image: url(img/background-header.png);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.header-text {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  padding: 30px 50px;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.header-text p {
+  color: white;
+  font-size: 40px;
+}
+
+.header-text h1 {
+  color: white;
+  font-size: 88px;
+}
+.header-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 10px;   
+}
+.header-icon img{
+  width: 20%;
+  height: auto;
+}
+
+
+
+  main{
+  background-color: rgb(114, 130, 112);
+  height: 100vh;
+  display: flex;
+}
+.contexte-img{
+  width: 60%;
+  height: 80%;
+  margin: auto;
+}
+.contexte-img img{
+  width: 100%;
+  height: 100%;
+ 
+}
+
+.contexte-box {
+  max-width: 900px;
+  margin: auto;
+  padding: 40px;
+  max-height: 50%;
+  display: flex;
+  flex-direction: column;
+
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 20px;
+
+  color: white;
+  text-align: center;
+}
+
+.contexte-box h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.contexte-box p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.Cible{
+  background-color: rgb(61, 226, 43);
+  height: 100vh;
+}
+
+
+.Evolution{
+  background-color: blueviolet;
+  height: 100vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Evolution {
+  background-color: #FFF1E5;
+  height: 100vh;
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+
+.Evolution h1{
+  color: white;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 15px;   
+  max-width: 300px; 
+  padding-left: 2%;
+  padding-right: 2%;
+  
+  
+}
+
+
 .container {
   width: 1024px;
   max-width: 100%;
   margin: 0 auto;
+
+  
 }
 
 .slider {
@@ -20,7 +158,9 @@ html {
   padding-bottom: 66.666666667%;
   margin-top: 24px;
   margin-bottom: 24px;
+  overflow: hidden; 
 }
+
 
 .slider__after {
   position: absolute;
@@ -28,7 +168,7 @@ html {
   left: 0px;
   z-index: 1;
   width: 100%;
-  height: 100%;
+  height: 80%;
   background-image: url('img/after.png');
   background-size: cover;
   pointer-events: none;
@@ -40,7 +180,7 @@ html {
   left: 0px;
   z-index: 2;
   width: 50%;
-  height: 100%;
+  height: 80%;
   background-image: url('img/before.png');
   background-size: cover;
   pointer-events: none;

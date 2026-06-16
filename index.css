@@ -1,1 +1,19 @@
 /* Le code CSS spécifique à la page d'accueil */
+header{
+    display: flex;
+    flex-direction: row;
+    height:calc(100vh - 92px) ;
+    width: 100%;
+
+}
+.container-img{
+    background-image: url('img/mockup1.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 60vh;
+    width: 50vw
+}
+.slogan{
+    
+}
