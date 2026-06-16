@@ -54,6 +54,7 @@ color: var(--color-rose-light);
 nav{
   width: 100%;
   height: 16vh;
+ 
   
 }
 .contain-nav{
@@ -63,6 +64,7 @@ nav{
   justify-content: space-between;
   background-color: var(--color-primary);
   position: fixed;
+   z-index: 1000;
   
   }
 
