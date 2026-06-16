@@ -2,6 +2,8 @@ html {
   height: 100%;
   width: 100%;
 }
+
+
 :root{
   --color-primary: #1F3D2E;
   --color-secondary: #ED93B1;
@@ -11,6 +13,8 @@ html {
   
 
 }
+
+
 *{
   font-family: "Inter",sans-serif;
 }
@@ -19,12 +23,34 @@ h1, h2, h3, h4, h5, h6{
 }
 button{
   border-radius: 16px;
+  
 }
 .button-primary{
 background-color: var(--color-primary);
+color: var(--color-rose-light);
 }
 .button-secondary{
-  background-color: var(--color-secondary);
+  background-color: var(--color-green-salade);
+  color: var(--color-secondary);
+}
+.button-dowland{
+background-color: var(--color-primary);
+color: var(--color-rose-light);
+}
+.button-link{
+  background-color: var(--color-green-salade);
+  color: var(--color-secondary);
 }
 
 
+.contain-nav{
+  display: flex;
+  flex-direction: row;
+}
+.contain-logo{
+  display: flex;
+}
+.logo{
+  height: 40px;
+  width: 40px;
+}
