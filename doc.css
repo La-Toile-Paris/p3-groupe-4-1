@@ -22,7 +22,6 @@ html {
 .nav-switch {
   position: relative;
   display: flex;
-  background-color: #D6E8D5;
   border-radius: 50px;
   /* padding: 5px;   */
   gap: 5px;
@@ -32,7 +31,6 @@ html {
   position: relative;
   padding: 10px 20px;
   border-radius: 50px;
-  color: #1F3D2E ;
   text-decoration: none;
   font-weight: 600;
   z-index: 2;
@@ -50,42 +48,23 @@ html {
   transition: color 0.3s ease;
 }
 
-.nav-btn.active {
-  color: #D6E8D5;
-  /* padding-left: 2px;
-  padding-right: 2px; */
-}
-
-.nav-switch::before {
-  content: "";
-  position: absolute;
-  top: 5px;
-  left: 5px;
-  height: calc(100% - 10px);
-  width: calc(50% - 5px);
-  background-color: #1F3D2E;
-  border-radius: 50px;
-  transition: transform 0.3s ease;
-}
-
-.nav-switch:hover::before {
-  transform: translateX(100%);
-}
-
 
 
 header {
-  background-image: url(img/background-header.png);
-  height: 100vh;
+  background-image: url(img/background.jpg);
+  height: 100%;
+  min-height:100vh;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+  gap:88px;
   justify-content: center;
+  padding:0;
+  margin:0;
 }
 
 .header-text {
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.5);
   border-radius: 15px;
   padding: 30px 50px;
   width: fit-content;
@@ -100,7 +79,6 @@ header {
 .header-text h1 {
   color: #ED93B1;
   font-size: 88px;
-  background-color: rgba(0, 0, 0, 0.374);
   border-radius: 12%;
   margin-left: 20%;
   margin-right: 20%;
@@ -116,22 +94,7 @@ header {
   height: auto;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  main{
+main{
   background-color: rgb(114, 130, 112);
   height: 100vh;
   display: flex;
@@ -222,9 +185,71 @@ display: flex;
 
 .persona-name{
   padding: 16px;
-  display: flex;
-  justify-content: center;
+  
 }
+
+.persona-infos-perso{
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding-left: 16px;
+}
+
+.persona-infos{
+  text-decoration: none;
+  padding: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+}
+
+.icon{
+  height: 25px;
+  width: 25px;
+}
+
+.persona-bio-contain{
+  display: flex;
+  flex-direction: column;
+}
+
+.persona-title-bio{
+  padding: 16px;
+}
+.persona-bio{
+  padding: 16px;
+}
+
+
+
+.persona-besoin{
+  display: flex;
+  flex-direction: column;
+}
+
+.persona-title-besoin{
+  padding: 16px;
+  
+}
+
+
+
+
+
+display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding: 16px;
+
+
+
+
+
+
+
+
+
 
 
 
@@ -238,26 +263,6 @@ display: flex;
   background-color: blueviolet;
   height: 100vh;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 .Evolution {

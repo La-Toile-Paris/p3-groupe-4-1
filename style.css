@@ -11,7 +11,7 @@ html {
   --color-secondary: #ED93B1;
   --color-green-salade: #D6E8D5;
   --color-rose-light: #FBEAF0;
-
+  --white:#FFFFFF;
   
 
 }
@@ -54,19 +54,22 @@ color: var(--color-rose-light);
 
 nav{
   width: 100%;
-  height: 16vh;
+  height: fit-content;
  
   
 }
 .contain-nav{
   display: flex;
   flex-direction: row;
-  width: 100%;
+  justify-self:center;
+  padding: 0px 24px;
   justify-content: space-between;
-  background-color: var(--color-primary);
+  background-color: rgba(255,255,255, 0.5);
   position: fixed;
-   z-index: 1000;
-  
+  z-index: 1000;
+  width:fit-content;
+  gap:16px;
+  border-radius:80px;
   }
 
 .contain-logo{
@@ -76,16 +79,14 @@ nav{
 .logo{
   height: 60px;
   width: 60px;
-  padding: 16px;
 }
 
 .contain-links{
-  padding: 16px;
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-gap: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
 }
 =======
 >>>>>>> Stashed changes
@@ -95,7 +96,6 @@ gap: 16px;
 .nav-switch {
   position: relative;
   display: flex;
-  background-color: #D6E8D5;
   border-radius: 50px;
   padding: 5px;
   gap: 5px;
@@ -105,7 +105,7 @@ gap: 16px;
   position: relative;
   padding: 10px 20px;
   border-radius: 50px;
-  color: #1F3D2E ;
+  color: var(--color-green-salade);
   text-decoration: none;
   font-weight: 600;
   z-index: 2;
