@@ -8,6 +8,16 @@ html {
   margin:0px; */
 }
 
+:root{
+  --color-primary: #1F3D2E;
+  --color-secondary: #ED93B1;
+  --color-green-salade: #D6E8D5;
+  --color-rose-light: #FBEAF0;
+  --color-secondary-light: #f0aec4;
+
+  
+
+}
 
 .nav-switch {
   position: relative;
@@ -166,24 +176,51 @@ header {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.Cible{
-  background-color: rgb(61, 226, 43);
-  height: 100vh;
+.persona{
+  height: 100%;
+  
+  display: flex;
+  flex-direction: column;
+  
 }
+
+.persona-contain-all{
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  background-color: var(--color-secondary);
+  
+  
+}
+
+
+.persona-contain{
+  display: flex;
+  flex-direction: row;
+  background-color: var(--color-secondary-light);
+  padding: 24px;
+  border-radius: 16px;
+  
+}
+
+.persona-contain-img{
+  display: flex;
+  
+}
+.persona-img{
+ height: 74vh;
+ border-radius: 16px;
+}
+
+.persona-infos-perso-contain{
+  background-color: #ffffff;
+}
+
+
+
+
+
+
 
 
 .Evolution{
@@ -326,4 +363,70 @@ header {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+.features {
+  padding:32px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f5f5;
+}
+
+.features-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: flex-start;
+  max-width: 1200px;
+}
+
+
+.feature {
+  margin-left:24px;
+  display:flex;
+  justify-content: center;
+  gap:64px;
+  align-items:center;
+  width: 100%;
+  text-align: center;
+}
+
+.feature img {
+  height: 420px;
+  object-fit:contain;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+
+.feature.compare img {
+  height: 420px;
+}
+.compare{
+  display:flex;
+  flex-direction: row-reverse;
+}
+.feature h5 {
+  font-weight: bold;
+  font-size : 20px;
+  margin-bottom: 10px;
+}
+
+.feature p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+.feature-text{
+  display:flex;
+  text-align:left;
+  flex-direction:column;
+  width:42%;
+  gap:8px;
+}
+
+.feature-text:hover{
+  transform:scale(1.08);
+  transition:ease-in-out 0.5s;
 }

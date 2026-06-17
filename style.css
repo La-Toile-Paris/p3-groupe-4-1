@@ -86,9 +86,10 @@ flex-direction: row;
 justify-content: center;
 align-items: center;
 gap: 16px;
+}
 =======
 >>>>>>> Stashed changes
-}
+
 
 
 .nav-switch {
@@ -141,3 +142,4 @@ gap: 16px;
 .nav-switch:hover::before {
   transform: translateX(100%);
 }
+
