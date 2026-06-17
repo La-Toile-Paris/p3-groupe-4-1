@@ -199,7 +199,7 @@ header {
   flex-direction: row;
   background-color: var(--color-secondary-light);
   padding: 24px;
-  border-radius: 16px;
+  border-radius: 16px 0px 0px 16px;
   
 }
 
