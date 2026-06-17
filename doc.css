@@ -199,22 +199,33 @@ header {
   flex-direction: row;
   background-color: var(--color-secondary-light);
   padding: 24px;
-  border-radius: 16px 0px 0px 16px;
   
+  border-radius: 16px;
 }
 
-.persona-contain-img{
-  display: flex;
-  
-}
+
 .persona-img{
  height: 74vh;
- border-radius: 16px;
+ border-radius: 16px 0px 0px 16px;
 }
 
 .persona-infos-perso-contain{
   background-color: #ffffff;
+  height: 74vh;
 }
+
+.persona-infos-perso-contain{
+display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.persona-name{
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+}
+
 
 
 
