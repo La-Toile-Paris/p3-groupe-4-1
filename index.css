@@ -95,7 +95,7 @@ width: 35%;
 
 .containet-section-temoinages{
   background-color: var(--color-primary);
-  height: 90vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
 }
@@ -192,9 +192,58 @@ width: 35%;
   height: 80vh;
   width: 100%;
   color: var(--color-primary);
+  justify-content: center;
+  align-items: center;
 }
 
 
+.store-buttons {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
 
 
+.store-btn {
+    width: 190px;
+    height: 60px;
+    background: #000;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 15px;
+    border-radius: 12px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+
+.store-btn:hover {
+    transform: scale(1.05);
+    opacity: 0.85;
+}
+
+
+.store-btn img {
+    width: 35px;
+    height: 35px;
+}
+
+
+.store-btn span {
+    display: block;
+    font-size: 11px;
+}
+
+
+.store-btn strong {
+    font-size: 18px;
+}
+
+.QR-code{
+  height: 25vh;
+  width: 25vh;
+  padding: 32px;
+}
 
