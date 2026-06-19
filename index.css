@@ -17,7 +17,7 @@ header{
   --color-secondary: #ED93B1;
   --color-green-salade: #D6E8D5;
   --color-rose-light: #FBEAF0;
-  --white:#FFFFFF;
+  --color-baige: #FFFAED;
   
 
 }
@@ -90,6 +90,109 @@ width: 35%;
 
 
 
+
+
+
+.containet-section-temoinages{
+  background-color: var(--color-primary);
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.h-temoinages{
+  display: flex;
+  flex-direction: column;
+  color: var(--color-baige);
+  padding: 32px;
+}
+
+
+
+
+
+
+
+
+
+.container-temoinages {
+    width: 56vw;
+    margin: 64px auto;
+    overflow: hidden;
+    position: relative;
+    
+}
+
+
+.cards-temoinages {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+
+.card-temoinages {
+    min-width: 280px;
+    margin: 0 10px;
+    background: var(--color-baige);
+    padding: 24px;
+    border-radius: 16px;
+    text-align: center;
+    box-shadow: 0 5px 15px #ccc;
+}
+
+
+.card-temoinages img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+.card-temoinages h3 {
+    margin: 10px 0;
+}
+
+
+.stars-temoinages {
+    color: orange;
+}
+
+
+.temoinages button {
+    position: absolute;
+    top: 45%;
+    border: none;
+    background: black;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 10;
+}
+
+
+.prev-temoinages {
+    left: -20px;
+}
+
+
+.next-temoinages {
+    right: -20px;
+}
+
+
+
+.container-section-install{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  background-color: var(--color-baige);
+  height: 80vh;
+  width: 100%;
+  color: var(--color-primary);
+}
 
 
 
