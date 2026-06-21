@@ -29,6 +29,7 @@ header{
   justify-content:center;
   padding-top: 120px;
 }
+
 header .header-texte{
   display: flex;
   padding:0px 75px;
@@ -71,9 +72,15 @@ header ul li{
   padding:8px 16px;
   background-color:transparent;
   border-radius: 100px;
-  color:rgb(27, 42, 26, 0.75);
 }
-
+header ul li a{
+  color:rgb(27, 42, 26, 0.75);
+  text-decoration: none;
+}
+header ul li:hover{
+  transform:scale(1.05);
+  transition:ease-in-out 0.4s;
+}
 header #button-download{
   background-color: var(--green);
   padding: 12px 24px;
@@ -82,7 +89,11 @@ header #button-download{
   text-decoration:none;
   color:var(--color-baige);
 }
-
+header #button-download:hover{
+  transform:scale(1.1);
+  transition:ease-in-out 0.4s;
+  background-color: black;
+}
 header img{
   width:65%;
   height:65%;
@@ -95,6 +106,9 @@ header img{
   justify-content: center;
   background-color: var(--color-baige);
   gap:64px;
+}
+.contexte-texte p:first-of-type{
+  color:var(--green-opacity-reduced);
 }
 .contexte-texte p:nth-of-type(2){
   color:rgb(43, 67, 42, 0.85);
@@ -158,6 +172,9 @@ width: 35%;
   background-color: white;
 }
 
+.features p{
+  color:var(--green-opacity-reduced);
+}
 .features-container {
   margin-top:32px;
 }
