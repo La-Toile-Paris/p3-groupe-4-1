@@ -356,12 +356,11 @@ header img {
 
 .store-btn {
   transition: 0.3s;
-
+  gap: 0px;
 }
 
 .store-img {
-  width: 356px;
-  height: 56px;
+ 
   border-radius: 16px;
   object-fit: cover;
 }
@@ -373,10 +372,7 @@ header img {
 }
 
 
-.store-btn img {
-  width: 35px;
-  height: 35px;
-}
+
 
 
 .store-btn span {
