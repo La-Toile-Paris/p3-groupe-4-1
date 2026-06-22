@@ -21,7 +21,9 @@
 .green {
   color: var(--green-secondary);
 }
-
+h2{
+  font-size:var(--font-size-title-secondary);
+}
 h5{
   font-size:25px;
 }
