@@ -110,7 +110,17 @@ body {
     min-height: 100vh;
     background-color: #f5f0e8;
     padding: 60px 80px;
+    display: flex;
+    justify-content: center;
+    padding-top: 120px;
+    
+    
 }
+.odd-title{
+    text-align: center;
+}
+
+
 
 .odd-section_label {
     font-size: 11px;
@@ -142,8 +152,12 @@ body {
     border-radius: 16px;
     padding: 24px 28px;
     border: 1px solid #e8e0d0;
+    margin-right: 30px;
 }
-
+.odd-row{
+    display: flex;
+    flex-direction: row;
+}
 .odd-card_label {
     font-size: 10px;
     font-weight: 700;
@@ -164,10 +178,12 @@ body {
 .odd-card_vert {
     background-color: #2d4a2d;
     border-radius: 16px;
-    padding: 28px 32px;
-    max-width: 520px;
-    margin-top: 24px;
+    padding: 28px  32px;
+    max-width: 420px;
+    max-height: 250px;
+    margin-top: 140px;
     border: none;
+    
 }
 
 .odd-card_vert .odd-card_label {
@@ -199,6 +215,9 @@ body {
     min-height: 100vh;
     background-color: #ffffff;
     padding: 60px 80px;
+  
+    
+    
 }
 
 .cible-section_label {
@@ -424,8 +443,8 @@ body {
 }
 
 .evolution {
-    background-color: #263626;
-    border: 1px solid #3a5a3a;
+    background-color: #ed93813b ;
+    border: 1px solid #ed93817b;
     border-radius: 16px;
     padding: 28px 32px;
 }
@@ -434,7 +453,7 @@ body {
     font-size: 10px;
     font-weight: 700;
     letter-spacing: 2px;
-    color: #8aab6e;
+    color: #ed9381;
     text-transform: uppercase;
     margin-bottom: 18px;
 }
