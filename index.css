@@ -142,24 +142,6 @@ header img{
   height:80%;
   width:80%;
 }
-.container-img{
-   
-    width: 50%;
-    
-}
-.mockup{
-height: 80% ;
-width: 35%;
-}
-.slogan{
-   width: 50%;
-   height: 60wh ;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   font-weight: bolder;
-} 
-
 
 .features {
   display: flex;
