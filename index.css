@@ -182,7 +182,7 @@ header img {
   background-color: white;
 }
 
-.features p {
+.features p:not(.number-feature) {
   color: var(--green-opacity-reduced);
 }
 
@@ -224,13 +224,14 @@ header img {
   font-family:caprasimo;
   background-color:var(--color-secondary);
   width:fit-content;
-  border-radius:17px;
-  padding:0px 8px;
+  border-radius:100px;
+  padding:4px 8px;
   color:#4B1528;
 }
 
 .feature-text {
   display: flex;
+  gap:14px;
   text-align: left;
   flex-direction:column;
   max-width:30%;
