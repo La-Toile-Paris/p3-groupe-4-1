@@ -156,10 +156,11 @@ color: var(--color-primary);
 }
  
 .nav-logo{
-  font-family: 'Caprasimo', serif;
-  font-size: 22px;
-  color: #2B432A;
-  text-decoration: none;
+  /* font-family: 'Caprasimo', serif; */
+  /* font-size: 22px; */
+  /* color: #2B432A;
+  text-decoration: none; */
+  width: 10%;
 }
  
 .nav-links{
