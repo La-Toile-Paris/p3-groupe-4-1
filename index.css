@@ -23,6 +23,7 @@
 }
 h2{
   font-size:var(--font-size-title-secondary);
+  font-weight:lighter;
 }
 h5{
   font-size:25px;
