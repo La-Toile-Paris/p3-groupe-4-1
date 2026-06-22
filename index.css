@@ -54,6 +54,7 @@ header .header-texte {
 
 header h1 {
   font-size: 62px;
+  font-weight:lighter;
 }
 
 .titre-section {
