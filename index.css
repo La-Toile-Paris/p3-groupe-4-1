@@ -235,7 +235,9 @@ width: 35%;
   padding: 48px;
 }
 
-
+.title-temoniages-principal{
+  color: var(--color-secondary);
+}
 
 
 
