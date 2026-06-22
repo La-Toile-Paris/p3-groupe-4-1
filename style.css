@@ -55,7 +55,7 @@ color: var(--color-rose-light);
 
 
 footer{
-  height: 35vh;
+  height: 43vh;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -128,7 +128,8 @@ color: var(--color-primary);
     background-color: #ccc;
 }
 .infos-blablabla-footer{
-  padding-left: 148px;
+  padding: 8px;
+  padding-left: 108px;
   display: flex;
   flex-direction: column-reverse;
 }
@@ -140,7 +141,8 @@ color: var(--color-primary);
   left: 50%;
   transform: translateX(-50%);
   width: calc(100% - 48px);
-  max-width: 880px;
+  max-width: 500px;
+  opacity: 80%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -154,10 +156,11 @@ color: var(--color-primary);
 }
  
 .nav-logo{
-  font-family: 'Caprasimo', serif;
-  font-size: 22px;
-  color: #2B432A;
-  text-decoration: none;
+  /* font-family: 'Caprasimo', serif; */
+  /* font-size: 22px; */
+  /* color: #2B432A;
+  text-decoration: none; */
+  width: 10%;
 }
  
 .nav-links{
