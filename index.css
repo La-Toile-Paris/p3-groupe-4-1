@@ -299,7 +299,7 @@ header img{
 .container-section-install{
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 16px;
   background-color: var(--color-baige);
   height: 80vh;
   width: 100%;
@@ -356,5 +356,6 @@ header img{
 .QR-code{
   height: 25vh;
   width: 25vh;
-  padding: 32px;
+  padding-top: 16px;
+
 }
