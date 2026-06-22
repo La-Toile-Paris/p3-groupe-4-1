@@ -21,7 +21,13 @@
 .green {
   color: var(--green-secondary);
 }
-
+h2{
+  font-size:var(--font-size-title-secondary);
+  font-weight:lighter;
+}
+h5{
+  font-size:25px;
+}
 .green-opacity-reduced {
   color: var(--green-opacity-reduced);
 }
@@ -49,6 +55,7 @@ header .header-texte {
 
 header h1 {
   font-size: 62px;
+  font-weight:lighter;
 }
 
 .titre-section {
@@ -179,7 +186,7 @@ header img {
   background-color: white;
 }
 
-.features p {
+.features p:not(.number-feature) {
   color: var(--green-opacity-reduced);
 }
 
@@ -217,31 +224,22 @@ header img {
   border-radius: 15px;
   margin-bottom: 15px;
 }
-
-.number-feature {
-  font-family: caprasimo;
-  background-color: var(--color-secondary);
-  width: fit-content;
-  border-radius: 17px;
-  padding: 0px 8px;
-  color: #4B1528;
+.number-feature{
+  font-family:caprasimo;
+  background-color:var(--color-secondary);
+  width:fit-content;
+  border-radius:100px;
+  padding:4px 8px;
+  color:#4B1528;
 }
 
 .feature-text {
   display: flex;
+  gap:14px;
   text-align: left;
-  flex-direction: column;
-  max-width: 30%;
+  flex-direction:column;
+  max-width:30%;
 }
-
-
-
-
-
-
-
-
-
 
 .containet-section-temoinages {
   background-color: var(--color-primary);
