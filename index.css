@@ -195,12 +195,20 @@ header img{
   border-radius: 15px;
   margin-bottom: 15px;
 }
+.feature-text h5{
+  font-family:Inter;
+  font-size:25px;
+  font-weight: bolder;
+}
 .number-feature{
+  text-align:center;
   font-family:caprasimo;
   background-color:var(--color-secondary);
   width:fit-content;
-  border-radius:17px;
-  padding:0px 8px;
+  border-radius:100%;
+  padding:0px 4px;
+  width:12px;
+  height:12px;
   color:#4B1528;
 }
 .feature-text{
@@ -208,6 +216,7 @@ header img{
   text-align: left;
   flex-direction:column;
   max-width:30%;
+  gap:14px;
 }
 
 
