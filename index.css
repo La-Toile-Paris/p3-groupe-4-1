@@ -114,7 +114,8 @@ header #button-download {
 header #button-download:hover {
   transform: scale(1.1);
   transition: ease-in-out 0.4s;
-  background-color: black;
+  background-color: var(--color-secondary);
+  color:#4B1528;
 }
 
 header img {
