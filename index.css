@@ -13,12 +13,17 @@
   --green: #2B432A;
   --green-opacity-reduced: rgb(43, 67, 42, 0.65);
   --green-secondary: #1B2A1A;
+  --font-size-title-secondary: 44px;
 }
 .green{
   color:var(--green-secondary);
 }
 .green-opacity-reduced{
   color:var(--green-opacity-reduced);
+}
+h2{
+  font-size: var(--font-size-title-secondary);
+  letter-spacing:1px;
 }
 header{
   display:flex;
@@ -107,6 +112,7 @@ header img{
   background-color: var(--color-baige);
   gap:64px;
 }
+
 .contexte-texte p:first-of-type{
   color:var(--green-opacity-reduced);
 }
@@ -161,6 +167,14 @@ header img{
   margin-top:32px;
 }
 
+.features-accroche{
+  display:flex;
+  flex-direction:column;
+  gap:16px;
+  text-align:center;
+  width:fit-content;
+  width:50%;
+}
 
 .feature {
   height:100vh;
