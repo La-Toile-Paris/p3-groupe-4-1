@@ -139,8 +139,8 @@ header img{
   max-width: 50%;
 }
 .contexte-image img{
-  height:90%;
-  width:90%;
+  height:80%;
+  width:80%;
 }
 .container-img{
    
@@ -181,6 +181,7 @@ width: 35%;
 
 
 .feature {
+  height:100vh;
   display:flex;
   gap: 64px;
   text-align: center;
@@ -192,7 +193,8 @@ width: 35%;
   flex-direction: row-reverse;
 }
 .feature img {
-  height: 350px;
+  height: 70%;
+  width:80%;
   object-fit:contain;
   border-radius: 15px;
   margin-bottom: 15px;
@@ -235,9 +237,7 @@ width: 35%;
   padding: 48px;
 }
 
-.title-temoniages-principal{
-  color: var(--color-secondary);
-}
+
 
 
 
@@ -376,4 +376,3 @@ width: 35%;
   width: 25vh;
   padding: 32px;
 }
-
