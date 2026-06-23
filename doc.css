@@ -90,14 +90,16 @@ body {
 .future-step ul li p{
     color:rgb(27, 42, 26, 0.8)
 }
+.future-step a{
+    background-color:var(--color-secondary);
+    color:#4B1528;
+    font-weight:bold;
+}
+
 .future-step a:hover{
     transform:scale(1.08);
     transition:0.3s ease-in-out;
-    background-color:var(--color-secondary);
-    color:#4B1528;
 }
-
-
 
 
 
