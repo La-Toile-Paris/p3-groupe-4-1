@@ -94,6 +94,9 @@ footer{
   gap: 8px;
 }
 
+.name-project-footer{
+  line-height: 0.8;
+}
 
 .liste-cotact-footer-1{
   display: flex;
