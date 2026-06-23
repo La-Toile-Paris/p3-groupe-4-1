@@ -134,8 +134,8 @@ header {
     color: white;
     text-align: center;
     font-size: 48px;
-    font-weight: 800;
-    font-family: 'Georgia', serif;
+    font-weight: lighter;
+    font-family: Caprasimo;
     margin-left: 10px;
 }
 
@@ -371,10 +371,10 @@ font-size: 1.1rem;
 
 .odd-section_title {
     font-size: 48px;
-    font-weight: 800;
+    font-weight: lighter;
     color: #2d4a2d;
     margin-bottom: 50px;
-    font-family: 'Georgia', serif;
+    font-family: Caprasimo;
 }
 
 .odd-section_cards {
@@ -471,10 +471,10 @@ font-size: 1.1rem;
 
 .cible-section_title {
     font-size: 42px;
-    font-weight: 800;
+    font-weight: lighter;
     color: #1a1a1a;
     margin-bottom: 16px;
-    font-family: 'Georgia', serif;
+    font-family: Caprasimo;
 }
 
 .cible-section_intro {
@@ -527,7 +527,8 @@ font-size: 1.1rem;
     font-size: 26px;
     font-weight: 800;
     color: #1a1a1a;
-    font-family: 'Georgia', serif;
+    font-family: Caprasimo;
+    font-weight:lighter;
 }
 
 .persona-card_age {
@@ -593,10 +594,10 @@ font-size: 1.1rem;
 
 .test-section_title {
     font-size: 42px;
-    font-weight: 800;
+    font-weight: lighter;
     color: #f0ebe0;
     margin-bottom: 14px;
-    font-family: 'Georgia', serif;
+    font-family: Caprasimo;
 }
 
 .test-section_intro {
@@ -625,10 +626,10 @@ font-size: 1.1rem;
 
 .step-card_number {
     font-size: 18px;
-    font-weight: 800;
     color: #8aab6e;
     margin-bottom: 8px;
-    font-family: 'Georgia', serif;
+    font-family: Caprasimo;
+    font-weight:lighter;
 }
 
 .step-card_text {
