@@ -9,9 +9,9 @@ html {
 
 :root{
   --color-primary: #1F3D2E;
-  --color-secondary: #ED93B1;
+  --color-secondary: #FCC2CC;
   --color-green-salade: #D6E8D5;
-  --color-rose-light: #FBEAF0;
+  --color-rose-light: #FCC2CC;
   --white:#FFFFFF;
   
 
@@ -52,6 +52,8 @@ color: var(--color-rose-light);
   padding: 8px;
   font-weight: 600;
 }
+
+
 
 
 footer{
