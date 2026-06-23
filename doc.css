@@ -112,6 +112,45 @@ body {
 
 
 
+header {
+    background-color: #203221;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+
+
+}
+.header-txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+    
+}
+
+
+.header-txt h1 {
+    color: white;
+    text-align: center;
+    font-size: 48px;
+    font-weight: lighter;
+    font-family: Caprasimo;
+    margin-left: 10px;
+}
+
+.header-txt p {
+    color: #747B6C;
+    text-align: center;
+    font-size: 24px;
+    margin-left: 10px;
+}
+
+
+.header-img{
+    width: 50%;
+}
+
 
 
 
@@ -292,29 +331,6 @@ font-size: 1.1rem;
 
 
 
-header {
-    background-color: #203221;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
-
-}
-
-header h1 {
-    color: white;
-    text-align: center;
-    font-size: 48px;
-    font-weight: 800;
-    font-family: 'Georgia', serif;
-}
-
-header p {
-    color: #747B6C;
-    text-align: center;
-    font-size: 24px;
-}
 
 
 
@@ -355,10 +371,10 @@ header p {
 
 .odd-section_title {
     font-size: 48px;
-    font-weight: 800;
+    font-weight: lighter;
     color: #2d4a2d;
     margin-bottom: 50px;
-    font-family: 'Georgia', serif;
+    font-family: Caprasimo;
 }
 
 .odd-section_cards {
@@ -437,7 +453,7 @@ header p {
     width: 100%;
     min-height: 100vh;
     background-color: #ffffff;
-    padding: 60px 80px;
+    padding: 60px 175px;
 
 
 
@@ -455,10 +471,10 @@ header p {
 
 .cible-section_title {
     font-size: 42px;
-    font-weight: 800;
+    font-weight: lighter;
     color: #1a1a1a;
     margin-bottom: 16px;
-    font-family: 'Georgia', serif;
+    font-family: Caprasimo;
 }
 
 .cible-section_intro {
@@ -511,7 +527,8 @@ header p {
     font-size: 26px;
     font-weight: 800;
     color: #1a1a1a;
-    font-family: 'Georgia', serif;
+    font-family: Caprasimo;
+    font-weight:lighter;
 }
 
 .persona-card_age {
@@ -577,10 +594,10 @@ header p {
 
 .test-section_title {
     font-size: 42px;
-    font-weight: 800;
+    font-weight: lighter;
     color: #f0ebe0;
     margin-bottom: 14px;
-    font-family: 'Georgia', serif;
+    font-family: Caprasimo;
 }
 
 .test-section_intro {
@@ -609,10 +626,10 @@ header p {
 
 .step-card_number {
     font-size: 18px;
-    font-weight: 800;
     color: #8aab6e;
     margin-bottom: 8px;
-    font-family: 'Georgia', serif;
+    font-family: Caprasimo;
+    font-weight:lighter;
 }
 
 .step-card_text {
