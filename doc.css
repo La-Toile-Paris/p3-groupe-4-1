@@ -9,142 +9,6 @@ body {
     width: 100%;
 }
 
-:root {
-    --color-primary: #1F3D2E;
-    --color-secondary: #FCC2CC;
-    --color-green-salade: #D6E8D5;
-    --color-rose-light: #FCC2CC;
-    --color-baige: #FFFAED;
-    --green: #2B432A;
-    --green-opacity-reduced: rgb(43, 67, 42, 0.65);
-    --green-secondary: #1B2A1A;
-    --font-size-title-secondary: 44px;
-}
-
-
-.future-step {
-    height: 85vh;
-}
-
-.future-step h2,
-h4 {
-    color: var(--color-primary);
-}
-
-.all-futur-step-container {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.team {
-    height: 85vh;
-}
-
-.all-team-container {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    justify-content: center;
-    align-items: center;
-}
-
-.all-team-container h2 {
-    color: var(--color-primary);
-    padding: 16px;
-    font-size: 2rem;
-}
-
-.cards-team {
-    display: flex;
-    flex-direction: row;
-    gap: 64px;
-    padding: 16px;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.card-team {
-    display: flex;
-    flex-direction: column;
-    border-radius: 16px;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    background-color: var(--color-green-salade);
-}
-
-.avatar-team {
-    width: 100%;
-    height: auto;
-    display: block;
-    border-top-right-radius: 16px;
-    border-top-left-radius: 16px;
-}
-
-.infos-team{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 4px;
-    padding: 8px;
-
-}
-.name-team{
-    font-size: 1.4rem;
-    font-weight: lighter;
-    padding: 8px;
-}
-
-.role-team{
-font-size: 1.1rem;
-
-}
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -235,8 +99,29 @@ font-size: 1.1rem;
 
 
 
+header {
+    background-color: #203221;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
 
+}
+
+header h1 {
+    color: white;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 800;
+    font-family: 'Georgia', serif;
+}
+
+header p {
+    color: #747B6C;
+    text-align: center;
+    font-size: 24px;
+}
 
 
 
@@ -359,10 +244,10 @@ font-size: 1.1rem;
     width: 100%;
     min-height: 100vh;
     background-color: #ffffff;
-    padding: 60px 200px;
-  
-    
-    
+    padding: 60px 80px;
+
+
+
 }
 
 .cible-section_label {
@@ -401,7 +286,6 @@ font-size: 1.1rem;
     border-radius: 20px;
     padding: 32px 36px;
     max-width: 700px;
-    justify-content: center;
 }
 
 .persona-card_photo {
