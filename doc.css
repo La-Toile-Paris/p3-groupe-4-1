@@ -112,6 +112,45 @@ body {
 
 
 
+header {
+    background-color: #203221;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+
+
+}
+.header-txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+    
+}
+
+
+.header-txt h1 {
+    color: white;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 800;
+    font-family: 'Georgia', serif;
+    margin-left: 10px;
+}
+
+.header-txt p {
+    color: #747B6C;
+    text-align: center;
+    font-size: 24px;
+    margin-left: 10px;
+}
+
+
+.header-img{
+    width: 50%;
+}
+
 
 
 
@@ -292,29 +331,6 @@ font-size: 1.1rem;
 
 
 
-header {
-    background-color: #203221;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
-
-}
-
-header h1 {
-    color: white;
-    text-align: center;
-    font-size: 48px;
-    font-weight: 800;
-    font-family: 'Georgia', serif;
-}
-
-header p {
-    color: #747B6C;
-    text-align: center;
-    font-size: 24px;
-}
 
 
 
