@@ -5,13 +5,13 @@
 }
 
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Inter',sans-serif;
     width: 100%;
 }
 
 :root {
     --color-primary: #1F3D2E;
-    --color-secondary: #ED93B1;
+    --color-secondary: #FCC2CC;
     --color-green-salade: #D6E8D5;
     --color-rose-light: #FBEAF0;
     --color-baige: #FFFAED;
@@ -101,55 +101,57 @@ body {
     transition:0.3s ease-in-out;
 }
 
-
-
-
-
-
-
-
-
-
-
-
 header {
     background-color: #203221;
     height: 100vh;
     display: flex;
     flex-direction: row;
-
-
 }
 .header-txt{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
-    
-    
+    align-items: flex-start;  
+    gap:16px;
 }
 
 
 .header-txt h1 {
     color: white;
-    text-align: center;
     font-size: 48px;
-    font-weight: lighter;
+    font-weight: 800;
     font-family: Caprasimo;
-    margin-left: 10px;
+    margin-left: 100px;
+    font-weight:lighter;
 }
 
 .header-txt p {
     color: #747B6C;
-    text-align: center;
     font-size: 24px;
-    margin-left: 10px;
+    margin-left: 100px;
+    line-height:1.1;
 }
 
-
+.header-txt p:first-of-type{
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    font-family: 'Arial', sans-serif;
+    color:var(--color-secondary);
+}
+.header-txt p:nth-of-type(2){
+    font-size:19px;
+    line-height:1.4;
+}
 .header-img{
-    width: 50%;
+    padding-top:16px;
+    width: 90%;
+    overflow: hidden    ;
 }
+
+
 
 
 
@@ -417,14 +419,16 @@ font-size: 1.1rem;
 }
 
 .odd-card_vert {
-    background-color: #2d4a2d;
+    background-color: rgb(45, 74, 45);
     border-radius: 16px;
-    padding: 28px 32px;
-    max-width: 420px;
-    max-height: 250px;
-    margin-top: 140px;
-    border: none;
-
+    padding: 32px 32px;
+    max-width: 350px;
+    max-height: 268px;
+    margin-top: 130px;
+    border-width: medium;
+    border-style: none;
+    border-color: currentcolor;
+    border-image: initial;
 }
 
 .odd-card_vert .odd-card_label {
