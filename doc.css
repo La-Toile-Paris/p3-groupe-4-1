@@ -21,13 +21,19 @@ body {
     --font-size-title-secondary: 44px;
 }
 
-
-.future-step {
-    height: 85vh;
+.future-step ul{
+    display:flex;
+    justify-content:center;
+    gap:32px;
 }
-
-.future-step h2,
-h4 {
+.future-step ul li{
+    display:flex;
+    flex-direction:column;
+    max-width:25%;
+    list-style-type:none;
+    text-align:center;
+}
+.future-step h2,h4 {
     color: var(--color-primary);
 }
 
@@ -35,12 +41,61 @@ h4 {
     display: flex;
     flex-direction: column;
     gap: 16px;
-
+    min-height:100vh;
+    align-items:center;
+    justify-content:center;
+    padding:88px 32px;
 }
-
-
-
-
+.future-step{
+    padding-top:16px;
+    display:flex;
+    flex-direction:column;
+    gap:32px;
+    justify-content:center;
+    align-items:center;
+}
+.title-future-step hgroup{
+    display:flex;
+    flex-direction:column;
+    gap:8px;
+    align-items:center;
+    text-align:center;
+}
+.title-future-step hgroup p{
+    font-size: 11px;
+    font-weight:600;
+    letter-spacing:2px;
+    color:#555;
+}
+.title-future-step hgroup h2{
+    font-size: 2rem;
+    font-weight:lighter;
+}
+.future-step .button-primary{
+    padding:12px 24px;
+    width:fit-content;
+    border-radius:100px;
+}
+.future-step ul li{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    line-height:1.5;
+}
+.future-step ul li img{
+    height:80%;
+    width:70%;
+}
+.future-step ul li p{
+    color:rgb(27, 42, 26, 0.8)
+}
+.future-step a:hover{
+    transform:scale(1.08);
+    transition:0.3s ease-in-out;
+    background-color:var(--color-secondary);
+    color:#4B1528;
+}
 
 
 
@@ -613,3 +668,4 @@ font-size: 1.1rem;
     color: #c0c8b0;
     line-height: 1.6;
 }
+
