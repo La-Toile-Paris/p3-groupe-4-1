@@ -8,7 +8,7 @@
 
 :root {
   --color-primary: #1F3D2E;
-  --color-secondary: #ED93B1;
+  --color-secondary: #FCC2CC;
   --color-green-salade: #D6E8D5;
   --color-rose-light: #FBEAF0;
   --color-baige: #FFFAED;
@@ -227,7 +227,7 @@ header img {
 }
 .number-feature{
   font-family:caprasimo;
-  background-color:var(--color-secondary);
+  background-color: var(--color-secondary);
   width:fit-content;
   border-radius:100px;
   padding:4px 8px;
@@ -245,6 +245,7 @@ header img {
 .containet-section-temoinages {
   background-color: var(--color-primary);
   height: 100vh;
+  align-items:center;
   display: flex;
   flex-direction: column;
 }
@@ -254,6 +255,7 @@ header img {
   flex-direction: column;
   color: var(--color-baige);
   padding: 48px;
+  gap: 16px;
 }
 
 
@@ -270,7 +272,6 @@ header img {
   justify-content: center;
   overflow: hidden;
   position: relative;
-
 }
 
 
