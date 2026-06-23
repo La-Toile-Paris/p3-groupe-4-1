@@ -149,7 +149,9 @@ header {
 
 .header-img{
     width: 50%;
+    overflow: hidden    ;
 }
+
 
 
 
