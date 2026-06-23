@@ -134,22 +134,23 @@ header {
     color: white;
     text-align: center;
     font-size: 48px;
-    font-weight: lighter;
-    font-family: Caprasimo;
-    margin-left: 10px;
+    font-weight: 800;
+    font-family: 'Georgia', serif;
+    margin-left: 100px;
 }
 
 .header-txt p {
     color: #747B6C;
     text-align: center;
     font-size: 24px;
-    margin-left: 10px;
+    margin-left: 100px;
 }
 
 
 .header-img{
     width: 50%;
 }
+
 
 
 
