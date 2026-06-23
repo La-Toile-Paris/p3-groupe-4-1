@@ -359,10 +359,10 @@ font-size: 1.1rem;
     width: 100%;
     min-height: 100vh;
     background-color: #ffffff;
-    padding: 60px 80px;
-
-
-
+    padding: 60px 200px;
+  
+    
+    
 }
 
 .cible-section_label {
@@ -401,6 +401,7 @@ font-size: 1.1rem;
     border-radius: 20px;
     padding: 32px 36px;
     max-width: 700px;
+    justify-content: center;
 }
 
 .persona-card_photo {
