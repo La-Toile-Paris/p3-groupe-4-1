@@ -201,14 +201,16 @@ header {
     align-items: center;
     padding: 20px;
     background-color: var(--color-green-salade);
+    width: 20%;
 }
 
 .avatar-team {
     width: 100%;
-    height: auto;
+    height: 35vh;
     display: block;
     border-top-right-radius: 16px;
     border-top-left-radius: 16px;
+    object-fit: cover;
 }
 
 .infos-team{
