@@ -571,7 +571,7 @@ font-size: 1.1rem;
     justify-self:center;
     background-color: var(--color-secondary);
     height: 2px;
-    width: 650px;
+    width: 565px;
     position: absolute;
     z-index: 1;
     top: 30px;
