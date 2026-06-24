@@ -301,8 +301,13 @@ header #button-download:hover {
 .swiper-temoinages {
   width: 60%;
   position: relative;
-  padding-bottom: 40px;
   overflow: hidden;
+}
+
+.swiper-pagination-temoinages {
+  position: static !important;
+  margin-top: 24px;
+  text-align: center;
 }
 
 .swiper-wrapper {
@@ -321,17 +326,12 @@ header #button-download:hover {
   gap: 16px;
 }
 
-.swiper-pagination {
-  bottom: 8px !important;
-  text-align: center;
-}
-
-.swiper-pagination-bullet {
+.swiper-pagination-temoinages .swiper-pagination-bullet {
   background: var(--color-beige) !important;
   opacity: 0.5;
 }
 
-.swiper-pagination-bullet-active {
+.swiper-pagination-temoinages .swiper-pagination-bullet-active {
   background: var(--color-secondary) !important;
   opacity: 1;
 }
