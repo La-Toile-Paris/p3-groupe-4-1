@@ -262,6 +262,7 @@ header #button-download:hover {
 
 #temoignages{
       padding-top: 20vh;
+      height:100vh;
 }
 
 
@@ -281,11 +282,12 @@ header #button-download:hover {
 .cards-temoinages {
   display: flex;
   transition: transform 0.5s ease;
+
 }
 
 
 .card-temoinages {
-  min-width: 280px;
+  min-width: 220px;
   margin: 0 10px;
   background: var(--color-beige);
   padding: 24px;
