@@ -61,9 +61,9 @@ header h1 {
 }
 
 .titre-section {
-  text-transform: uppercase;
+      font-family: "Inter", sans-serif;
   font-weight: bold;
-  font-size: 13px;
+  font-size: 16px;
   letter-spacing: 15%;
   ;
 }
@@ -200,7 +200,7 @@ header #button-download:hover {
   display:flex;
   flex-direction:column;
   gap:16px;
-  text-align:center;
+  
   width:fit-content;
   width:50%;
   margin-bottom: 20vh;

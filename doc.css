@@ -467,7 +467,9 @@ font-size: 1.1rem;
     margin-bottom: 14px;
     margin-left:175px;
     font-family: Caprasimo;
+    padding-top: 40px;
 }
+
 .test-section .line{
     display:flex;
     justify-self:center;
@@ -578,7 +580,6 @@ font-size: 1.1rem;
     justify-content: center;
     align-items: center;
     gap: 40px;
-    flex-wrap: wrap;
 }
 
 .ecran{
