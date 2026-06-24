@@ -6,6 +6,16 @@
   padding: 0px;
 }
 
+html {
+  scroll-snap-type: y proximity;
+}
+
+.snap-section {
+  scroll-snap-align: start;
+  scroll-snap-stop: normal;
+  box-sizing: border-box;
+}
+
 .green {
   color: var(--green-secondary);
 }
@@ -189,7 +199,6 @@ header #button-download:hover {
   justify-content: center;
   align-items: center;
   height: 100%;
-  padding-top: 20vh;
   background-color: white;
 }
 
@@ -208,29 +217,33 @@ header #button-download:hover {
 .features-container{
   display: flex;
   flex-direction: column;
-  gap: 10vh;
+  gap: 0;
 }
 
 .features-accroche{
-  display:flex;
-  flex-direction:column;
-  gap:16px;
-  
-  width:fit-content;
-  width:50%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 20vh;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
 }
 
 .feature {
-  height: 80vh;
+  height: 100vh;
   display: flex;
   gap: 64px;
   text-align: center;
   justify-content: center;
   align-items: center;
+  box-sizing: border-box;
 }
 
 .feature:first-child{
-    padding-top: 64px;
+    padding-top: 0;
 }
 .text-align{
   text-align: center;
@@ -280,8 +293,7 @@ header #button-download:hover {
 
 
 #feature3{
-    margin-bottom: 20vh;
-
+    margin-bottom: 0;
 }
 
 #temoignages {

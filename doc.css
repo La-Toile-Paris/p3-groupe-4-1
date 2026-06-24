@@ -21,6 +21,16 @@ body {
     width: 100%;
 }
 
+html {
+    scroll-snap-type: y proximity;
+}
+
+.snap-section {
+    scroll-snap-align: start;
+    scroll-snap-stop: normal;
+    box-sizing: border-box;
+}
+
 
 
 
@@ -44,19 +54,28 @@ body {
     display: flex;
     flex-direction: column;
     gap: 16px;
-    min-height:100vh;
+    height: 100%;
+    min-height: 100vh;
     align-items:center;
     justify-content:center;
     padding:96px 32px;
+    box-sizing: border-box;
 }
-.future-step{
-    padding-top:16px;
-    display:flex;
-    flex-direction:column;
-    gap:32px;
-    justify-content:center;
-    align-items:center;
+section.future-step.snap-section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background: white;
+}
+
+.all-futur-step-container .future-step {
+    padding-top: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    justify-content: center;
+    align-items: center;
 }
 .title-future-step hgroup{
     display:flex;
