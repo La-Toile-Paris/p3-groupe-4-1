@@ -130,6 +130,12 @@ header #button-download:hover {
   background-color: var(--color-beige);
   gap: 64px;
 }
+.contexte-texte {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 40%;
+}
 
 .contexte-texte p:first-of-type {
   color: var(--green-opacity-reduced);
@@ -138,20 +144,22 @@ header #button-download:hover {
 .contexte-texte p:nth-of-type(2) {
   color: rgb(43, 67, 42, 0.85);
 }
-
-.contexte-texte {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  max-width: 40%;
+.contexte-texte .liste-difficultes{
+  display:flex;
+  flex-direction:column;
+  gap:16px;
 }
-
-.contexte-texte ul {
+.contexte-texte .liste-difficultes li{
+  display:flex;
+  gap:8px;
+  list-style-type:none;
+}
+.contexte-texte .contexte-chiffres {
   display: flex;
   gap: 32px;
 }
 
-.contexte-texte ul li {
+.contexte-texte .contexte-chiffres li {
   color: var(--green-opacity-reduced);
   font-weight: 550;
   text-transform: uppercase;
@@ -191,9 +199,9 @@ header #button-download:hover {
   padding:16px;
 }
 .features-container{
-    display: flex;
-    flex-direction: column;
-    gap: 10vh;
+  display: flex;
+  flex-direction: column;
+  gap: 10vh;
 }
 
 .features-accroche{
@@ -203,7 +211,6 @@ header #button-download:hover {
   
   width:fit-content;
   width:50%;
-  margin-bottom: 20vh;
 }
 
 .feature {

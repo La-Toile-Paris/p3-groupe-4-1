@@ -110,7 +110,7 @@ header {
     height: 100vh;
     display: flex;
     flex-direction: row;
-    align-items: center;
+    
     justify-content: space-between;
     gap: 40px;
     padding: 120px 60px 40px;
@@ -130,14 +130,13 @@ header {
 .header-txt h1 {
     color: white;
     font-size: 48px;
-    font-weight: 800;
     font-family: Caprasimo;
     
-    font-weight:lighter;
+    font-weight: lighter;
 }
 
 .header-txt p {
-    color: #747B6C;
+    color: var(--color-beige);
     font-size: 16px;
     line-height:1.1;
 }
@@ -294,7 +293,7 @@ font-size: 1.1rem;
 }
 
 .odd-card {
-    background-color: var(--color-green-salade);
+    background-color: white;
     border-radius: 16px;
     padding: 24px 28px;
     border: 1px solid var(--color-beige);
@@ -311,8 +310,7 @@ font-size: 1.1rem;
     font-size: 16px;
     font-weight: 700;
     letter-spacing: 2px;
-    color: var(--color-secondary);
-    
+    color: black;
     margin-bottom: 10px;
     
 }
@@ -452,7 +450,6 @@ font-size: 1.1rem;
     gap:32px;
     width: 100%;
     min-height: 100vh;
-    background-color: var(--color-beige);
     padding-top: 120px;
 }
 .step {
@@ -470,7 +467,7 @@ font-size: 1.1rem;
     margin-bottom: 14px;
     margin-left:175px;
     font-family: Caprasimo;
-    padding-top: 40px;
+    padding-top: 130px;
 }
 
 .test-section .line{
@@ -581,7 +578,7 @@ font-size: 1.1rem;
 .evolution-ecrans{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     gap: 40px;
 }
 
@@ -597,16 +594,6 @@ font-size: 1.1rem;
     width: 220px;
     height: auto;
 }
-
-
-
-
-
-
-
-
-
-
 
 .titre-section {
       font-family: "Inter", sans-serif;
