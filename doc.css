@@ -115,6 +115,7 @@ header {
     gap: 40px;
     padding-top: 60px;
     padding-left: 64px;
+    align-items: center;
 }
 
 .header-txt{
@@ -156,9 +157,8 @@ header {
     line-height:1.4;
 }
 .header-img{
-    width: 850px;
+    width:  700px;
     height: auto;
-
 }
 
 
