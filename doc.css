@@ -592,7 +592,9 @@ font-size: 1.1rem;
 
 .ecran img{
     width: 220px;
-    height: auto;
+    height: 375px;
+    padding-bottom: 32px;
+    padding-top:16px;
 }
 
 .titre-section {

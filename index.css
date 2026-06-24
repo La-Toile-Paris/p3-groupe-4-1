@@ -168,7 +168,10 @@ header #button-download:hover {
   list-style-type: none;
 
 }
-
+.contexte-texte .difficulte-texte p{
+  color: var(--green-opacity-reduced);
+  line-height: 1.2;
+}
 .contexte-texte ul li p {
   font-size: 12px;
 }
@@ -197,6 +200,10 @@ header #button-download:hover {
 }
 .number-feature p{
   padding:16px;
+}
+.text .number-feature{
+  width:10px;
+  height:10px;
 }
 .features-container{
   display: flex;
