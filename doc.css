@@ -3,7 +3,19 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+:root {
+    --color-primary: #2B432A;
+    --color-secondary: #FCC2CC;
+    --color-green-salade: #D6E8D5;
+    --color-rose-light: #FBEAF0;
+    --color-beige: #F5F0E8;
+    --green: #2B432A;
+    --green-opacity-reduced: rgb(43, 67, 42, 0.65);
+    --green-secondary: #1B2A1A;
+    --font-size-title-secondary: 44px;
+    --red:#4B1528;
+    --color-green-opacity: #2b432ab5; 
+}
 body {
     font-family: 'Inter',sans-serif;
     width: 100%;
@@ -32,7 +44,7 @@ body {
     min-height:100vh;
     align-items:center;
     justify-content:center;
-    padding:88px 32px;
+    padding:96px 32px;
 }
 .future-step{
     padding-top:16px;
@@ -47,7 +59,7 @@ body {
     display:flex;
     flex-direction:column;
     gap:8px;
-    align-items:center;
+    align-items: flex-start;
     text-align:center;
 }
 .title-future-step hgroup p{
@@ -95,7 +107,12 @@ header {
     height: 100vh;
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 120px 60px 40px;
 }
+
 .header-txt{
     display: flex;
     flex-direction: column;
@@ -136,9 +153,9 @@ header {
     line-height:1.4;
 }
 .header-img{
-    padding-top:16px;
-    width: 90%;
-    overflow: hidden    ;
+    width: 850px;
+    height: auto;
+
 }
 
 
@@ -274,11 +291,12 @@ font-size: 1.1rem;
 }
 
 .odd-card {
-    background-color: #ffffff;
+    background-color: var(--color-green-salade);
     border-radius: 16px;
     padding: 24px 28px;
-    border: 1px solid #e8e0d0;
+    border: 1px solid var(--color-beige);
     margin-right: 30px;
+    
 }
 
 .odd-row {
@@ -287,28 +305,28 @@ font-size: 1.1rem;
 }
 
 .odd-card_label {
-    font-size: 10px;
+    font-size: 16px;
     font-weight: 700;
     letter-spacing: 2px;
-    color: #2d4a2d;
-    text-transform: uppercase;
+    color: var(--color-secondary);
+    
     margin-bottom: 10px;
-    font-family: 'Arial', sans-serif;
+    
 }
 
 .odd-card_text {
     font-size: 14px;
-    color: #3a3a3a;
+    color: var(--color-primary);
     line-height: 1.6;
-    font-family: 'Arial', sans-serif;
+    
 }
 
 .odd-card_vert {
-    background-color: rgb(45, 74, 45);
+    background-color: var(--color-primary);
     border-radius: 16px;
     padding: 32px 32px;
     max-width: 350px;
-    max-height: 268px;
+    max-height: 300px;
     margin-top: 130px;
     border-width: medium;
     border-style: none;
@@ -317,7 +335,7 @@ font-size: 1.1rem;
 }
 
 .odd-card_vert .odd-card_label {
-    color: #8fba5e;
+    color: var(--color-secondary);
     margin-bottom: 14px;
 }
 
@@ -342,16 +360,16 @@ font-size: 1.1rem;
     font-size: 11px;
     font-weight: 600;
     letter-spacing: 2px;
-    color: #555;
-    text-transform: uppercase;
+    color: var(--color-primary);
+   
     margin-bottom: 10px;
-    font-family: 'Arial', sans-serif;
+
 }
 
 .cible-section_title {
     font-size: 42px;
     font-weight: lighter;
-    color: #1a1a1a;
+    color: var(--color-primary);
     margin-bottom: 16px;
     font-family: Caprasimo;
 }
@@ -405,7 +423,7 @@ font-size: 1.1rem;
 .persona-card_name {
     font-size: 26px;
     font-weight: 800;
-    color: #1a1a1a;
+    color: var(--color-primary);
     font-family: Caprasimo;
     font-weight:lighter;
 }
@@ -432,7 +450,7 @@ font-size: 1.1rem;
     width: 100%;
     min-height: 100vh;
     background-color: var(--color-beige);
-    padding: 100px 80px;
+    padding-top: 120px;
 }
 .step {
     display:flex;
@@ -504,6 +522,10 @@ font-size: 1.1rem;
     border:1px solid var(--green);
     border-radius:24px;
 }
+.user-card_name {
+    font-family: Caprasimo;
+    color: var(--green);
+}
 .user-infos {
     display:flex;
     align-items:center;
@@ -549,4 +571,25 @@ font-size: 1.1rem;
     font-weight:bold;
     text-align:center;
     width:fit-content;
+}
+
+.evolution-ecrans{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.ecran{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+}
+
+.ecran img{
+    width: 220px;
+    height: auto;
 }

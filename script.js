@@ -17,7 +17,7 @@ sliders.forEach(function (slider) {
   });
 
   sliderSeparator.addEventListener('touchstart', function () {
-    isDragging = truse;
+    isDragging = true;
   });
 
   document.addEventListener('mouseup', function () {

@@ -1,23 +1,24 @@
 
-let position = 0;
 
-function moveSlide(direction){
+const swiper = new Swiper('.swiper-temoinages', {  // ← orthographe unifiée
 
-    const cards = document.getElementById("cards-temoinages");
+  slidesPerView: 2,
+  spaceBetween: 16,
+  loop: true,
 
-    position += direction;
+  // ✅ Scroll de la molette = défilement des cards
+  mousewheel: {
+    enabled: true,
+    releaseOnEdges: true, // rend la main au scroll de page en bout de liste
+  },
 
-    if(position < 0){
-        position = 0;
-    }
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
 
-
-    if(position > 1){
-        position = 1;
-    }
-
-
-    cards.style.transform =
-    `translateX(-${position * 300}px)`;
-
-}
+  breakpoints: {
+    0:   { slidesPerView: 1 },
+    768: { slidesPerView: 2 },
+  }
+});
