@@ -38,12 +38,9 @@ header{
 header .header-texte {
   display: flex;
   padding: 0px 0px 0px 50px;
-  
-  
-  
   flex-direction: column;
   width:45%;
-  gap: 24px;
+  gap: 32px;
 }
 header .header-img{
   width:55%;
@@ -236,8 +233,11 @@ header #button-download:hover {
 
 
 .reverse {
+  padding-top:16px;
+  padding-bottom:16px;
   display: flex;
   flex-direction: row-reverse;
+  background-color:var(--green-opacity-reduced);
 }
 
 .feature img {
