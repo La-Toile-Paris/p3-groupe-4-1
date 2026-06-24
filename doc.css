@@ -299,6 +299,7 @@ font-size: 1.1rem;
 
 .odd-section_label {
     font-size: 16px;
+    text-align:center;
     font-weight: 600;
     letter-spacing: 2px;
     color: #2d4a2d;
@@ -571,6 +572,7 @@ font-size: 1.1rem;
 .user-card-desc{
     display:flex;
     flex-direction:column;
+    align-items:center;
     gap:16px;
 }
 .button-advantage {
@@ -579,8 +581,8 @@ font-size: 1.1rem;
     justify-content:center;
     color:var(--green);
     background-color: rgb(168, 233, 166,0.25);
-    padding:12px 10px;
-    border-radius:20px;
+    padding:12px ;
+    border-radius:25px;
     font-weight:bold;
     text-align:center;
     width:fit-content;
@@ -593,8 +595,8 @@ font-size: 1.1rem;
     justify-content:center;
     color:#4B1528;
     background-color: var(--color-secondary);
-    padding:12px 8px;
-    border-radius:20px;
+    padding:12px ;
+    border-radius:25px;
     font-weight:bold;
     text-align:center;
     width:fit-content;

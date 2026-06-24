@@ -210,10 +210,7 @@ header #button-download:hover {
   padding:16px;
   border-radius:100%;
 }
-.text .number-feature{
-  width:10px;
-  height:10px;
-}
+
 .features-container{
   display: flex;
   flex-direction: column;
@@ -231,6 +228,7 @@ header #button-download:hover {
   justify-content: center;
   box-sizing: border-box;
 }
+
 
 .feature {
   height: 100vh;
@@ -275,6 +273,12 @@ header #button-download:hover {
 .feature-text p{
   line-height:1.3;
   font-size:19px;
+}
+.feature-text p:first-of-type{
+  width:12px;
+  height:12px;
+  display:flex;
+  align-items:center;
 }
 .containet-section-temoinages {
   background-color: var(--color-primary);
