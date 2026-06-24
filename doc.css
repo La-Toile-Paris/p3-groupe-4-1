@@ -580,6 +580,16 @@ font-size: 1.1rem;
     width:fit-content;
 }
 
+.button-advantage::before {
+    content: "✅";
+    margin-right: 8px;
+}
+
+.button-improvements::before {
+    content: "❌";
+    margin-right: 8px;
+}
+
 .evolution-ecrans{
     display: flex;
     justify-content: center;
