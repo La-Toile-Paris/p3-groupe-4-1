@@ -1,15 +1,13 @@
 
 
-const swiper = new Swiper('.swiper-temoinages', {  // ← orthographe unifiée
-
+const swiper = new Swiper('.swiper-temoinages', { 
   slidesPerView: 2,
   spaceBetween: 16,
   loop: true,
 
-  // ✅ Scroll de la molette = défilement des cards
   mousewheel: {
     enabled: true,
-    releaseOnEdges: true, // rend la main au scroll de page en bout de liste
+    releaseOnEdges: true,
   },
 
   pagination: {
