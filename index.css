@@ -221,7 +221,7 @@ header #button-download:hover {
 }
 
 .feature {
-  height: 80vh;
+  height: 100vh;
   display: flex;
   gap: 64px;
   text-align: center;
@@ -261,6 +261,7 @@ header #button-download:hover {
 }
 .feature-text p{
   line-height:1.3;
+  font-size:19px;
 }
 .containet-section-temoinages {
   background-color: var(--color-primary);
