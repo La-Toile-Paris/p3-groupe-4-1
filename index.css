@@ -127,6 +127,7 @@ header #button-download:hover {
   background-color: var(--color-beige);
   gap: 64px;
 }
+
 .contexte-texte {
   display: flex;
   flex-direction: column;
@@ -194,9 +195,11 @@ header #button-download:hover {
 
 .features p:not(.number-feature) {
   color: var(--green-opacity-reduced);
+
 }
 .number-feature p{
   padding:16px;
+  border-radius:100%;
 }
 .text .number-feature{
   width:10px;
@@ -229,7 +232,9 @@ header #button-download:hover {
 .feature:first-child{
     padding-top: 64px;
 }
-
+.text-align{
+  text-align: center;
+}
 
 
 .reverse {
