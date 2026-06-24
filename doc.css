@@ -356,9 +356,10 @@ font-size: 1.1rem;
     min-height: 100vh;
     background-color: #ffffff;
     padding: 60px 175px;
-
-
-
+        display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .cible-section_label {
@@ -471,7 +472,7 @@ font-size: 1.1rem;
     margin-bottom: 64px;
     margin-left:175px;
     font-family: Caprasimo;
-    padding-top: 100px;
+    padding-top: 20vh;
 }
 
 .test-section .line{

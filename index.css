@@ -288,6 +288,7 @@ header #button-download:hover {
   height: 100vh;
 }
 
+
 .containet-section-temoinages {
   padding-top: 20vh;
   background-color: var(--color-primary);
@@ -300,12 +301,28 @@ header #button-download:hover {
 .swiper-temoinages {
   width: 60%;
   position: relative;
+  padding-bottom: 40px;
   overflow: hidden;
-  padding-bottom: 50px;
+}
+
+.swiper-wrapper {
+  align-items: stretch;
+}
+
+.card-temoinages {
+  background: var(--color-beige);
+  padding: 24px;
+  border-radius: 16px;
+  text-align: center;
+  height: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
 .swiper-pagination {
-  bottom: 0px !important;
+  bottom: 8px !important;
   text-align: center;
 }
 
@@ -317,17 +334,6 @@ header #button-download:hover {
 .swiper-pagination-bullet-active {
   background: var(--color-secondary) !important;
   opacity: 1;
-}
-
-.card-temoinages {
-  background: var(--color-beige);
-  padding: 24px;
-  border-radius: 16px;
-  text-align: center;
-  height: 180px;
-  display: flex;
-  flex-direction:column;
-  gap: 16px;
 }
 
 .name-pic{
