@@ -370,6 +370,11 @@ header #button-download:hover {
 .card-temoinages h3 {
   margin: 10px 0;
 }
+.card-temoinages p {
+  color: var(--green);
+  font-size:16px;
+  line-height: 1.2;
+}
 
 .stars-temoinages {
   color: orange;
