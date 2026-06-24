@@ -6,18 +6,6 @@
   padding: 0px;
 }
 
-:root {
-  --color-primary: #1F3D2E;
-  --color-secondary: #FCC2CC;
-  --color-green-salade: #D6E8D5;
-  --color-rose-light: #FCC2CC;
-  --color-baige: #FFFAED;
-  --green: #2B432A;
-  --green-opacity-reduced: rgb(43, 67, 42, 0.65);
-  --green-secondary: #1B2A1A;
-  --font-size-title-secondary: 44px;
-}
-
 .green {
   color: var(--green-secondary);
 }
@@ -32,9 +20,10 @@ h5{
   color: var(--green-opacity-reduced);
 }
 header{
-  padding-top: 120px;
-  background-color: var(--color-baige);
-  min-height:100vh;
+  background-color: var(--color-beige);
+  height:100vh;
+  display: flex;
+  justify-content: center;
 }
 .header-content {
   display: flex;
@@ -45,21 +34,22 @@ header{
 
 header .header-texte {
   display: flex;
-  padding: 0px 75px;
+  padding: 0px 0px 0px 50px;
   text-align: center;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  width:50%;
+  width:45%;
   gap: 24px;
 }
 header .header-img{
-  width:50%;
+  width:55%;
   height:100%;
 }
 header .header-img img{
   width: 100%;
   height: 100%;
+  object-fit: contain;
 }
 header h1 {
   font-size: 62px;
@@ -118,11 +108,11 @@ header #button-download {
   width: fit-content;
   border-radius: 100px;
   text-decoration: none;
-  color: var(--color-baige);
+  color: var(--color-beige);
 }
 
 header #button-download:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
   transition: ease-in-out 0.4s;
   background-color: var(--color-secondary);
   color:#4B1528;
@@ -131,10 +121,10 @@ header #button-download:hover {
 .contexte {
   display: flex;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   align-items: center;
   justify-content: center;
-  background-color: var(--color-baige);
+  background-color: var(--color-beige);
   gap: 64px;
 }
 
@@ -187,7 +177,7 @@ header #button-download:hover {
   justify-content: center;
   align-items: center;
   height: 100%;
-  padding-top:64px;
+  padding-top: 20vh;
   background-color: white;
 }
 
@@ -195,8 +185,10 @@ header #button-download:hover {
   color: var(--green-opacity-reduced);
 }
 
-.features-container {
-  margin-top: 32px;
+.features-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10vh;
 }
 
 .features-accroche{
@@ -206,17 +198,23 @@ header #button-download:hover {
   text-align:center;
   width:fit-content;
   width:50%;
+  margin-bottom: 20vh;
 }
 
 .feature {
-  height: 100vh;
+  height: 80vh;
   display: flex;
   gap: 64px;
   text-align: center;
   justify-content: center;
   align-items: center;
-  padding-top: 64px;
 }
+
+.feature:first-child{
+    padding-top: 64px;
+}
+
+
 
 .reverse {
   display: flex;
@@ -224,19 +222,11 @@ header #button-download:hover {
 }
 
 .feature img {
-  height: 70%;
-  width: 80%;
+  height: 100%;
+  width: 100%;
   object-fit: contain;
   border-radius: 15px;
   margin-bottom: 15px;
-}
-.number-feature{
-  font-family:caprasimo;
-  background-color: var(--color-secondary);
-  width:fit-content;
-  border-radius:100px;
-  padding:4px 8px;
-  color:#4B1528;
 }
 
 .feature-text {
@@ -258,13 +248,21 @@ header #button-download:hover {
 .h-temoinages {
   display: flex;
   flex-direction: column;
-  color: var(--color-baige);
+  color: var(--color-beige);
   padding: 48px;
   gap: 16px;
 }
 
 
+#feature3{
+    margin-bottom: 20vh;
 
+}
+
+
+#temoignages{
+      padding-top: 20vh;
+}
 
 
 
@@ -289,7 +287,7 @@ header #button-download:hover {
 .card-temoinages {
   min-width: 280px;
   margin: 0 10px;
-  background: var(--color-baige);
+  background: var(--color-beige);
   padding: 24px;
   border-radius: 16px;
   text-align: center;
@@ -344,7 +342,7 @@ header #button-download:hover {
   display: flex;
   flex-direction: column;
   gap: 16px;
-  background-color: var(--color-baige);
+  background-color: var(--color-beige);
   height: 80vh;
   width: 100%;
   color: var(--color-primary);

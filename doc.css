@@ -9,19 +9,6 @@ body {
     width: 100%;
 }
 
-:root {
-    --color-primary: #1F3D2E;
-    --color-secondary: #FCC2CC;
-    --color-green-salade: #D6E8D5;
-    --color-rose-light: #FBEAF0;
-    --color-baige: #FFFAED;
-    --green: #2B432A;
-    --green-opacity-reduced: rgb(43, 67, 42, 0.65);
-    --green-secondary: #1B2A1A;
-    --font-size-title-secondary: 44px;
-    --red:#4B1528;
-}
-
 .future-step ul{
     display:flex;
     justify-content:center;
@@ -54,6 +41,7 @@ body {
     gap:32px;
     justify-content:center;
     align-items:center;
+    background: var(--color-green-salade);
 }
 .title-future-step hgroup{
     display:flex;
@@ -114,6 +102,8 @@ header {
     justify-content: center;
     align-items: flex-start;  
     gap:16px;
+    padding-left: 100px;
+
 }
 
 
@@ -122,25 +112,24 @@ header {
     font-size: 48px;
     font-weight: 800;
     font-family: Caprasimo;
-    margin-left: 100px;
+    
     font-weight:lighter;
 }
 
 .header-txt p {
     color: #747B6C;
-    font-size: 24px;
-    margin-left: 100px;
+    font-size: 16px;
     line-height:1.1;
 }
 
 .header-txt p:first-of-type{
-    font-size: 11px;
+    font-size: 16px;
     font-weight: 600;
     letter-spacing: 2px;
-    text-transform: uppercase;
+  
     margin-bottom: 12px;
-    font-family: 'Arial', sans-serif;
     color:var(--color-secondary);
+   
 }
 .header-txt p:nth-of-type(2){
     font-size:19px;
@@ -168,7 +157,9 @@ header {
 
 
 .team {
-    height: 85vh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
 }
 
 .all-team-container {
@@ -203,7 +194,6 @@ header {
     justify-content: center;
     align-items: center;
     padding: 20px;
-    background-color: var(--color-green-salade);
     width: 20%;
 }
 
@@ -211,8 +201,7 @@ header {
     width: 100%;
     height: 35vh;
     display: block;
-    border-top-right-radius: 16px;
-    border-top-left-radius: 16px;
+    border-radius: 16px;
     object-fit: cover;
 }
 
@@ -237,115 +226,6 @@ font-size: 1.1rem;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.nav {
-    position: fixed;
-    top: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: calc(100% - 48px);
-    max-width: 880px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 14px 14px 14px 26px;
-    border-radius: 100px;
-    background: rgba(255, 250, 237, 0.85);
-    backdrop-filter: blur(16px);
-    -webkit-backdrop-filter: blur(16px);
-    border: 1px solid rgba(43, 67, 42, 0.1);
-    box-shadow: 0 8px 30px rgba(43, 67, 42, 0.1);
-}
-
-.nav-logo {
-    font-family: 'Caprasimo', serif;
-    font-size: 22px;
-    color: #2B432A;
-    text-decoration: none;
-}
-
-.nav-links {
-    display: flex;
-    align-items: center;
-    gap: 24px;
-}
-
-.nav-link {
-    font-family: 'Inter', sans-serif;
-    font-weight: 600;
-    font-size: 15px;
-    color: rgba(27, 42, 26, 0.8);
-    text-decoration: none;
-}
-
-.nav-link:hover {
-    color: #1B2A1A;
-}
-
-.nav-btn {
-    background: #2B432A;
-    color: #FFFAED;
-    font-family: 'Inter', sans-serif;
-    font-weight: 700;
-    font-size: 14px;
-    padding: 12px 24px;
-    border-radius: 100px;
-    text-decoration: none;
-}
-
-.nav-btn:hover {
-    background: #1B2A1A;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .odd-section {
     width: 100%;
     min-height: 100vh;
@@ -354,31 +234,34 @@ font-size: 1.1rem;
     display: flex;
     justify-content: center;
     padding-top: 120px;
-
+    
 
 }
 
+.odd-center{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
 .odd-title {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+   gap: 4px;
 }
 
 
 
 .odd-section_label {
-    font-size: 11px;
+    font-size: 16px;
     font-weight: 600;
     letter-spacing: 2px;
     color: #2d4a2d;
-    text-transform: uppercase;
-    margin-bottom: 12px;
-    font-family: 'Arial', sans-serif;
 }
 
 .odd-section_title {
     font-size: 48px;
     font-weight: lighter;
     color: #2d4a2d;
-    margin-bottom: 50px;
     font-family: Caprasimo;
 }
 
@@ -387,6 +270,7 @@ font-size: 1.1rem;
     flex-direction: column;
     gap: 16px;
     max-width: 420px;
+        padding-top: 48px;
 }
 
 .odd-card {
@@ -547,7 +431,7 @@ font-size: 1.1rem;
     gap:32px;
     width: 100%;
     min-height: 100vh;
-    background-color: var(--color-baige);
+    background-color: var(--color-beige);
     padding: 100px 80px;
 }
 .step {
@@ -611,19 +495,34 @@ font-size: 1.1rem;
 }
 .user-card {
     display:flex;
-    gap: 12px;
+    padding:24px 16px;
     justify-content:flex-start;
     flex-direction:column;
     max-width:30%;
+    height:100%;
+    gap:16px;
     border:1px solid var(--green);
-    padding:24px 12px;
     border-radius:24px;
+}
+.user-infos {
+    display:flex;
+    align-items:center;
+    gap: 16px;
+    max-height:20%;
+}
+.user-photo img{
+    width:100%;
+    height:100%;
+}
+.user-intro {
+    display:flex;
+    flex-direction: column;
+    gap:8px;
 }
 .user-card-desc{
     display:flex;
     flex-direction:column;
-    gap:8px;
-
+    gap:16px;
 }
 .button-advantage {
     display:flex;
@@ -651,3 +550,5 @@ font-size: 1.1rem;
     text-align:center;
     width:fit-content;
 }
+
+

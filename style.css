@@ -6,17 +6,18 @@ html {
   
 }
 
-
-:root{
-  --color-primary: #1F3D2E;
-  --color-secondary: #FCC2CC;
-  --color-green-salade: #D6E8D5;
-  --color-rose-light: #FCC2CC;
-  --white:#FFFFFF;
-  
-
+:root {
+    --color-primary: #2B432A;
+    --color-secondary: #FCC2CC;
+    --color-green-salade: #D6E8D5;
+    --color-rose-light: #FBEAF0;
+    --color-beige: #F5F0E8;
+    --green: #2B432A;
+    --green-opacity-reduced: rgb(43, 67, 42, 0.65);
+    --green-secondary: #1B2A1A;
+    --font-size-title-secondary: 44px;
+    --red:#4B1528;
 }
-
 
 *{
   font-family: "Inter",sans-serif;
@@ -66,7 +67,7 @@ footer{
   width: 100%;
   display: flex;
   flex-direction: column;
-  background-color: var(--color-rose-light);
+  background-color: var(--color-secondary);
   color: var(--color-primary);
 }
 
@@ -152,22 +153,18 @@ color: var(--color-primary);
 
   .nav{
   position: fixed;
+  z-index:101;
   top: 20px;
   left: 50%;
   transform: translateX(-50%);
   width: calc(100% - 48px);
   max-width: 500px;
-  opacity: 80%;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 14px 14px 14px 26px;
   border-radius: 100px;
-  background: rgba(255, 250, 237, 0.85);
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
-  border: 1px solid rgba(43, 67, 42, 0.1);
-  box-shadow: 0 8px 30px rgba(43, 67, 42, 0.1);
+  background:  var(--green);
 }
  
 .nav-logo{
@@ -188,14 +185,14 @@ color: var(--color-primary);
   font-family: 'Inter', sans-serif;
   font-weight: 600;
   font-size: 15px;
-  color: rgba(27, 42, 26, 0.8);
+  color: var(--color-rose-light);
   text-decoration: none;
 }
-.nav-link:hover{ color: #1B2A1A; }
+.nav-link:hover{ color: var(--color-green-salade); }
  
 .nav-btn{
-  background: #2B432A;
-  color: #FFFAED;
+  background: var(--color-secondary);
+  color: var(--red);
   font-family: 'Inter', sans-serif;
   font-weight: 700;
   font-size: 14px;
@@ -203,4 +200,16 @@ color: var(--color-primary);
   border-radius: 100px;
   text-decoration: none;
 }
-.nav-btn:hover{ background: #1B2A1A; }
+.nav-btn:hover{ background: var(--color-green-salade);
+color: var(--green); }
+
+.number-feature{
+  font-family:caprasimo;
+  background-color: var(--color-secondary);
+  width:fit-content;
+  border-radius:100%;
+  width:fit-content;
+  height:fit-content;
+  padding:8px;
+  color:#4B1528;
+}
