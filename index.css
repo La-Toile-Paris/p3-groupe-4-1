@@ -187,8 +187,6 @@ header #button-download:hover {
   justify-content: center;
   align-items: center;
   height: 100%;
-  padding-top: 64px;
-  padding-bottom: 32px;
   background-color: white;
 }
 
@@ -216,6 +214,7 @@ header #button-download:hover {
   text-align: center;
   justify-content: center;
   align-items: center;
+  padding-top: 64px;
 }
 
 .reverse {
