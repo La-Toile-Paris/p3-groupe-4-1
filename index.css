@@ -6,6 +6,16 @@
   padding: 0px;
 }
 
+html {
+  scroll-snap-type: y proximity;
+}
+
+.snap-section {
+  scroll-snap-align: start;
+  scroll-snap-stop: normal;
+  box-sizing: border-box;
+}
+
 .green {
   color: var(--green-secondary);
 }
@@ -189,7 +199,6 @@ header #button-download:hover {
   justify-content: center;
   align-items: center;
   height: 100%;
-  padding-top: 20vh;
   background-color: white;
 }
 
@@ -201,36 +210,38 @@ header #button-download:hover {
   padding:16px;
   border-radius:100%;
 }
-.text .number-feature{
-  width:10px;
-  height:10px;
-}
+
 .features-container{
   display: flex;
   flex-direction: column;
-  gap: 10vh;
+  gap: 0;
 }
 
 .features-accroche{
-  display:flex;
-  flex-direction:column;
-  gap:16px;
-  
-  width:fit-content;
-  width:50%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 20vh;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
 }
 
+
 .feature {
-  height: 80vh;
+  height: 100vh;
   display: flex;
   gap: 64px;
   text-align: center;
   justify-content: center;
   align-items: center;
+  box-sizing: border-box;
 }
 
 .feature:first-child{
-    padding-top: 64px;
+    padding-top: 0;
 }
 .text-align{
   text-align: center;
@@ -261,6 +272,13 @@ header #button-download:hover {
 }
 .feature-text p{
   line-height:1.3;
+  font-size:19px;
+}
+.feature-text p:first-of-type{
+  width:12px;
+  height:12px;
+  display:flex;
+  align-items:center;
 }
 .containet-section-temoinages {
   background-color: var(--color-primary);
@@ -280,13 +298,13 @@ header #button-download:hover {
 
 
 #feature3{
-    margin-bottom: 20vh;
-
+    margin-bottom: 0;
 }
 
 #temoignages {
   height: 100vh;
 }
+
 
 .containet-section-temoinages {
   padding-top: 20vh;
@@ -301,22 +319,16 @@ header #button-download:hover {
   width: 60%;
   position: relative;
   overflow: hidden;
-  padding-bottom: 50px;
 }
 
-.swiper-pagination {
-  bottom: 0px !important;
+.swiper-pagination-temoinages {
+  position: static !important;
+  margin-top: 24px;
   text-align: center;
 }
 
-.swiper-pagination-bullet {
-  background: var(--color-beige) !important;
-  opacity: 0.5;
-}
-
-.swiper-pagination-bullet-active {
-  background: var(--color-secondary) !important;
-  opacity: 1;
+.swiper-wrapper {
+  align-items: stretch;
 }
 
 .card-temoinages {
@@ -324,10 +336,21 @@ header #button-download:hover {
   padding: 24px;
   border-radius: 16px;
   text-align: center;
-  height: 180px;
+  height: 100%;
+  box-sizing: border-box;
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
   gap: 16px;
+}
+
+.swiper-pagination-temoinages .swiper-pagination-bullet {
+  background: var(--color-beige) !important;
+  opacity: 0.5;
+}
+
+.swiper-pagination-temoinages .swiper-pagination-bullet-active {
+  background: var(--color-secondary) !important;
+  opacity: 1;
 }
 
 .name-pic{
@@ -346,6 +369,11 @@ header #button-download:hover {
 
 .card-temoinages h3 {
   margin: 10px 0;
+}
+.card-temoinages p {
+  color: var(--green);
+  font-size:16px;
+  line-height: 1.2;
 }
 
 .stars-temoinages {

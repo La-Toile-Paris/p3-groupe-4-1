@@ -21,7 +21,7 @@
         </div>
     </nav>
     </nav>
-    <header>
+    <header class="snap-section">
         <div class="header-txt">
             <p class="titre-section">Documentation de projet</p>
             <h1>Les phases du Projet</h1>
@@ -30,7 +30,7 @@
         <img class="header-img" src="img/headerdocu.svg" alt="">
     </header>
 
-    <div class="odd-section">
+    <div class="odd-section snap-section">
         <div class="odd-title">
             <p class="odd-section_label titre-section">Objectif de développement durable</p>
             <h1 class="odd-section_title">Pourquoi ce projet ?</h1>
@@ -66,34 +66,41 @@
 
     </div>
 
-    <section class="cible-section">
-        <div class="cible-texte">
-            <p class="cible-section_label titre-section">POUR QUI ?</p>
-            <h1 class="cible-section_title">Cible</h1>
-            <p class="cible-section_intro">
-                HIMA s'adresse aux actifs français de 18 à 45 ans qui veulent développer leurs compétences, améliorer
-                leur
-                qualité de vie ou découvrir une nouvelle culture à travers une expérience professionnelle à l'étranger.
-            </p>
+    <section class="cible-section snap-section">
+        <div class="cible-general">
+            <div class="cible-texte">
+                <p class="cible-section_label titre-section">POUR QUI ?</p>
+                <h1 class="cible-section_title">Cible</h1>
+                <p class="cible-section_intro">
+                    HIMA s'adresse aux actifs français de 18 à 45 ans qui veulent développer leurs compétences, améliorer
+                    leur
+                    qualité de vie ou découvrir une nouvelle culture à travers une expérience professionnelle à l'étranger.
+                </p>
+            </div>
+            <div class="cible-img">
+                <img src="img/cible.jpg" alt="Cible de notre application">
+            </div>
         </div>
-        <div class="persona-card">
-            <img src="img/thomas.png" alt="Photo persona Thomas" class="persona-card_photo" />
-            <div class="persona-card_info">
-                <span class="persona-card_badge">Jeune diplômé</span>
-                <p class="persona-card_name">
-                    Thomas
-                    <span class="persona-card_age">25 ans</span>
-                </p>
-                <p class="persona-card_desc">
-                    Jeune diplômé en marketing et comunication, à l'aise avec le digital. C'est en regardant des vidéos
-                    d'expatriés sur les résaux sociaux qu'est née son envie de partir à Singapour. Il galaire à trouver
-                    un poste bien payé en France, mais ne connais rien des conditions réeles là-bas.
-                </p>
+        <div class="persona-intro">
+            <div class="persona-card">
+                <img src="img/thomas.png" alt="Photo persona Thomas" class="persona-card_photo" />
+                <div class="persona-card_info">
+                    <span class="persona-card_badge">Jeune diplômé</span>
+                    <h3 class="persona-card_name">
+                        Thomas
+                        <span class="persona-card_age">25 ans</span>
+                    </h3>
+                    <p class="persona-card_desc">
+                        Jeune diplômé en marketing et comunication, à l'aise avec le digital. C'est en regardant des vidéos
+                        d'expatriés sur les résaux sociaux qu'est née son envie de partir à Singapour. Il galaire à trouver
+                        un poste bien payé en France, mais ne connais rien des conditions réeles là-bas.
+                    </p>
+                </div>
             </div>
         </div>
     </section>
 
-    <h1 class="test-section_title">Évolution des étapes</h1>
+    <h1 class="test-section_title snap-section">Évolution des maquettes</h1>
     <div class="evolution-ecrans">
         <div class="ecran">
             <p class="evolution-etape number-feature">01 - Wireframe Papier</p>
@@ -104,7 +111,7 @@
             <img src="img/midfi.svg" alt="mid-fidelity">
         </div>
         <div class="ecran">
-            <p class="evolution-etape number-feature">03 - Wireframe High Fidelity</p>
+            <p class="evolution-etape number-feature">03 - Prototype High Fidelity</p>
             <img src="img/highfi.svg" alt="Maquette high-fidelity">
         </div>
     </div>
@@ -125,21 +132,21 @@
             </div>
             <span class="user-card-desc">
                 <span class="button-advantage">
-                    <p>Couleurs et idée intéressants</p>
+                    <p>Couleurs et idée intéressantes</p>
                 </span>
                 <span class="button-improvements">
-                    <p>Pouvoir comparer librement les pays qu’on souhaite</p>
+                    <p>Plus de liberté sur le choix des pays</p>
                 </span>
             </span>
         </div>
         <div class="user-card">
             <div class="user-infos">
                 <span class="user-photo">
-                    <img src="img/user-test2.png" alt="Image avatar de Rayan M.">
+                    <img src="img/user-test2.png" alt="Image avatar de Etienne L.">
                 </span>
                 <span class="user-intro">
-                    <p class="user-card_name">Etienne L.</p>
-                    <p class="user-card_role">48 ans, Directeur</p>
+                    <p class="user-card_name">Étienne L.</p>
+                    <p class="user-card_role">48 ans, Chef d'entreprise</p>
                 </span>
             </div>
             <span class="user-card-desc">
@@ -147,18 +154,18 @@
                     <p>Univers graphique du voyage</p>
                 </span>
                 <span class="button-improvements">
-                    <p>Réduction du texte sur les écrans COMPARER et DEMARCHES</p>
+                    <p>Trop de contenu textuel</p>
                 </span>
             </span>
         </div>
         <div class="user-card">
             <div class="user-infos">
                 <span class="user-photo">
-                    <img src="img/user-test3.png" alt="Image avatar de Rayan M.">
+                    <img src="img/user-test3.png" alt="Image avatar de Jacky O.">
                 </span>
                 <span class="user-intro">
                     <p class="user-card_name">Jacky O.</p>
-                    <p class="user-card_role">35 ans, BTP</p>
+                    <p class="user-card_role">35 ans, ouvrier dans le BTP</p>
                 </span>
             </div>
             <span class="user-card-desc">
@@ -166,7 +173,7 @@
                     <p>Ajout d’un bouton RETOUR</p>
                 </span>
                 <span class="button-improvements">
-                    <p>Bouton LANCER LE TEST qui est inaccessible</p>
+                    <p>Inaccessibilité des boutons</p>
                 </span>
             </span>
         </div>
@@ -177,7 +184,7 @@
 
 
 
-    <section class="future-step">
+    <section class="future-step snap-section">
 
 
         <div class="all-futur-step-container">
@@ -209,7 +216,7 @@
     </section>
 
 
-    <section class="team">
+    <section class="team snap-section">
         <div class="all-team-container">
             <hgroup>
                 <h2>Notre équipe</h2>
@@ -312,6 +319,5 @@
     </footer>
 
 </body>
-<script src="index-temoinages.js"></script>
 
 </html>

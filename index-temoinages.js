@@ -11,7 +11,7 @@ const swiper = new Swiper('.swiper-temoinages', {
   },
 
   pagination: {
-    el: '.swiper-pagination',
+    el: '.swiper-pagination-temoinages',
     clickable: true,
   },
 
