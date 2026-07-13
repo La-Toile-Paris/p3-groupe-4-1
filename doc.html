@@ -1,10 +1,13 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" class="lang-fr">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Documentation</title>
+    <script>
+        (function(){var l=localStorage.getItem('lang')||'fr';document.documentElement.className='lang-'+l;})();
+    </script>
     <link rel="stylesheet" href="doc.css">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -14,67 +17,76 @@
 
         <a href="index.html"><img class="nav-logo" src="img/logo.svg" alt=""></a>
         <div class="nav-links">
-            <a class="nav-link" href="index.html">Accueil</a>
+            <a class="nav-link" href="index.html"><span class="t-fr">Accueil</span><span class="t-en">Home</span></a>
             <a class="nav-btn"
                 href="https://www.figma.com/design/ZftiyeqBcfB2EOK8GcOpgA/HIMA-PROJECT?node-id=8376-4930&t=Nqp1gOsLv9Fpm5MH-1"
                 target="_blank">Figma</a>
+            <div class="lang-toggle">
+                <button class="lang-btn" data-lang="fr">FR</button>
+                <span class="lang-sep">/</span>
+                <button class="lang-btn" data-lang="en">EN</button>
+            </div>
         </div>
-    </nav>
     </nav>
     <header class="snap-section">
         <div class="header-txt">
-            <p class="titre-section">Documentation de projet</p>
-            <h1>Les phases du Projet</h1>
-            <p>Projet HIMA, Horizon International de la Mobilité des actifs.</p>
+            <p class="titre-section"><span class="t-fr">Documentation de projet</span><span class="t-en">Project Documentation</span></p>
+            <h1><span class="t-fr">Les phases du Projet</span><span class="t-en">Project Phases</span></h1>
+            <p><span class="t-fr">Projet HIMA, Horizon International de la Mobilité des actifs.</span><span class="t-en">HIMA Project, Horizon International de la Mobilité des Actifs.</span></p>
         </div>
-        <img class="header-img" src="img/headerdocu.svg" alt="">
+        <div class="header-img">
+            <img src="img/headerdocu.svg" alt="">
+        </div>
     </header>
 
     <div class="odd-section snap-section">
         <div class="odd-title">
-            <p class="odd-section_label titre-section">Objectif de développement durable</p>
-            <h1 class="odd-section_title">Pourquoi ce projet ?</h1>
+            <p class="odd-section_label titre-section"><span class="t-fr">Objectif de développement durable</span><span class="t-en">Sustainable Development Goal</span></p>
+            <h1 class="odd-section_title"><span class="t-fr">Pourquoi ce projet ?</span><span class="t-en">Why this project?</span></h1>
         </div>
         <div class="odd">
 
             <div class="odd-center">
                 <div class="odd-section_cards">
                     <div class="odd-card">
-                        <p class="odd-card_label titre-section">Objectif de développement durable</p>
-                        <p class="odd-card_text">L'accès à l'information sur les droits et conditions de travail.</p>
+                        <p class="odd-card_label titre-section"><span class="t-fr">Objectif de développement durable</span><span class="t-en">Sustainable Development Goal</span></p>
+                        <p class="odd-card_text"><span class="t-fr">L'accès à l'information sur les droits et conditions de travail.</span><span class="t-en">Access to information on labor rights and working conditions.</span></p>
                     </div>
                     <div class="odd-card">
-                        <p class="odd-card_label titre-section">Sujet</p>
-                        <p class="odd-card_text">La mobilité professionnelle à l'international : aider les actifs
-                            français à comparer les conditions de travail entre pays pour faire un choix éclairé.</p>
+                        <p class="odd-card_label titre-section"><span class="t-fr">Sujet</span><span class="t-en">Topic</span></p>
+                        <p class="odd-card_text">
+                            <span class="t-fr">La mobilité professionnelle à l'international : aider les actifs
+                            français à comparer les conditions de travail entre pays pour faire un choix éclairé.</span>
+                            <span class="t-en">International professional mobility: helping French workers compare working conditions between countries to make an informed choice.</span>
+                        </p>
                     </div>
                 </div>
-
-
             </div>
             <div class="odd-card odd-card_vert">
-                <p class="odd-card_label titre-section">Problématique</p>
-                <p class="odd-card_text">Comment faciliter l'identification des pays offrant les meilleures conditions
+                <p class="odd-card_label titre-section"><span class="t-fr">Problématique</span><span class="t-en">Problem Statement</span></p>
+                <p class="odd-card_text">
+                    <span class="t-fr">Comment faciliter l'identification des pays offrant les meilleures conditions
                     de
                     travail, une rémunération attractive et une sécurité de l'emploi pour les personnes souhaitant
                     travailler à l'étranger, malgré les difficultés administratives et la recherche d'emploi dans le
-                    pays d'accueil ?</p>
+                    pays d'accueil ?</span>
+                    <span class="t-en">How can we make it easier to identify the countries offering the best working conditions, attractive pay, and job security for people who want to work abroad, despite administrative hurdles and the challenge of finding a job in the host country?</span>
+                </p>
             </div>
 
         </div>
     </div>
 
-    </div>
-
     <section class="cible-section snap-section">
         <div class="cible-general">
             <div class="cible-texte">
-                <p class="cible-section_label titre-section">POUR QUI ?</p>
-                <h1 class="cible-section_title">Cible</h1>
+                <p class="cible-section_label titre-section"><span class="t-fr">POUR QUI ?</span><span class="t-en">WHO IS IT FOR?</span></p>
+                <h1 class="cible-section_title"><span class="t-fr">Cible</span><span class="t-en">Target Audience</span></h1>
                 <p class="cible-section_intro">
-                    HIMA s'adresse aux actifs français de 18 à 45 ans qui veulent développer leurs compétences, améliorer
+                    <span class="t-fr">HIMA s'adresse aux actifs français de 18 à 45 ans qui veulent développer leurs compétences, améliorer
                     leur
-                    qualité de vie ou découvrir une nouvelle culture à travers une expérience professionnelle à l'étranger.
+                    qualité de vie ou découvrir une nouvelle culture à travers une expérience professionnelle à l'étranger.</span>
+                    <span class="t-en">HIMA is designed for French workers aged 18 to 45 who want to develop their skills, improve their quality of life, or discover a new culture through a professional experience abroad.</span>
                 </p>
             </div>
             <div class="cible-img">
@@ -85,141 +97,138 @@
             <div class="persona-card">
                 <img src="img/thomas.png" alt="Photo persona Thomas" class="persona-card_photo" />
                 <div class="persona-card_info">
-                    <span class="persona-card_badge">Jeune diplômé</span>
+                    <span class="persona-card_badge"><span class="t-fr">Jeune diplômé</span><span class="t-en">Recent Graduate</span></span>
                     <h3 class="persona-card_name">
                         Thomas
-                        <span class="persona-card_age">25 ans</span>
+                        <span class="persona-card_age"><span class="t-fr">25 ans</span><span class="t-en">25 years old</span></span>
                     </h3>
                     <p class="persona-card_desc">
-Jeune diplômé en marketing et communication, Thomas maîtrise les outils digitaux et s’intéresse particulièrement aux stratégies de communication en ligne.
-Inspiré par les parcours d’expatriés suivis sur les réseaux sociaux, il rêve de construire son avenir à l'étranger.
-Son objectif : décrocher un poste valorisant où il pourra développer ses compétences et apporter sa créativité.
-</p>
+                        <span class="t-fr">Jeune diplômé en marketing et communication, Thomas maîtrise les outils digitaux et s'intéresse particulièrement aux stratégies de communication en ligne.
+Inspiré par les parcours d'expatriés suivis sur les réseaux sociaux, il rêve de construire son avenir à l'étranger.
+Son objectif : décrocher un poste valorisant où il pourra développer ses compétences et apporter sa créativité.</span>
+                        <span class="t-en">A recent graduate in marketing and communication, Thomas is skilled with digital tools and is particularly interested in online communication strategies.
+Inspired by expat journeys he follows on social media, he dreams of building his future abroad.
+His goal: land a rewarding position where he can grow his skills and bring his creativity.</span>
+                    </p>
                 </div>
             </div>
         </div>
     </section>
 
-    <h1 class="test-section_title snap-section">Évolution des maquettes</h1>
-    <div class="evolution-ecrans">
-        <div class="ecran">
-            <p class="evolution-etape number-feature">01 - Wireframe Papier</p>
-            <img src="img/lowfi.svg" alt="low-fidelity">
-        </div>
-        <div class="ecran">
-            <p class="evolution-etape number-feature">02 - Wireframe Mid Fidelity</p>
-            <img src="img/midfi.svg" alt="mid-fidelity">
-        </div>
-        <div class="ecran">
-            <p class="evolution-etape number-feature">03 - Prototype High Fidelity</p>
-            <img src="img/highfi.svg" alt="Maquette high-fidelity">
-        </div>
-    </div>
-
-<h2 class="retour-title">Retours utilisateurs</h2>
-
-
-    <div class="user">
-        <div class="user-card">
-            <div class="user-infos">
-                <span class="user-photo">
-                    <img src="img/user-test.png" alt="Image avatar de Rayan M.">
-                </span>
-                <span class="user-intro">
-                    <p class="user-card_name">Rayan M.</p>
-                    <p class="user-card_role">22 ans, UI/UX Designer</p>
-                </span>
+    <section class="mockups-section snap-section">
+        <h1 class="test-section_title"><span class="t-fr">Évolution des maquettes</span><span class="t-en">Mockup Evolution</span></h1>
+        <div class="evolution-ecrans">
+            <div class="ecran">
+                <p class="evolution-etape number-feature"><span class="t-fr">01 - Wireframe Papier</span><span class="t-en">01 - Paper Wireframe</span></p>
+                <img src="img/lowfi.svg" alt="low-fidelity">
             </div>
-            <span class="user-card-desc">
-                <span class="button-advantage">
-                    <p>Couleurs et idée intéressantes</p>
-                </span>
-                <span class="button-improvements">
-                    <p>Plus de liberté sur le choix des pays</p>
-                </span>
-            </span>
-        </div>
-        <div class="user-card">
-            <div class="user-infos">
-                <span class="user-photo">
-                    <img src="img/user-test2.png" alt="Image avatar de Etienne L.">
-                </span>
-                <span class="user-intro">
-                    <p class="user-card_name">Étienne L.</p>
-                    <p class="user-card_role">48 ans, Chef d'entreprise</p>
-                </span>
+            <div class="ecran">
+                <p class="evolution-etape number-feature"><span class="t-fr">02 - Wireframe Mid Fidelity</span><span class="t-en">02 - Mid-Fidelity Wireframe</span></p>
+                <img src="img/midfi.svg" alt="mid-fidelity">
             </div>
-            <span class="user-card-desc">
-                <span class="button-advantage">
-                    <p>Univers graphique du voyage</p>
-                </span>
-                <span class="button-improvements">
-                    <p>Trop de contenu textuel</p>
-                </span>
-            </span>
-        </div>
-        <div class="user-card">
-            <div class="user-infos">
-                <span class="user-photo">
-                    <img src="img/user-test3.png" alt="Image avatar de Jacky O.">
-                </span>
-                <span class="user-intro">
-                    <p class="user-card_name">Jacky O.</p>
-                    <p class="user-card_role">35 ans, ouvrier dans le BTP</p>
-                </span>
+            <div class="ecran">
+                <p class="evolution-etape number-feature"><span class="t-fr">03 - Prototype High Fidelity</span><span class="t-en">03 - High-Fidelity Prototype</span></p>
+                <img src="img/highfi.svg" alt="Maquette high-fidelity">
             </div>
-            <span class="user-card-desc">
-                <span class="button-improvements">
-                    <p>Ajout d’un bouton RETOUR</p>
-                </span>
-                <span class="button-improvements">
-                    <p>Inaccessibilité des boutons</p>
-                </span>
-            </span>
         </div>
-    </div>
     </section>
 
+    <section class="feedback-section snap-section">
+        <h2 class="retour-title"><span class="t-fr">Retours utilisateurs</span><span class="t-en">User Feedback</span></h2>
 
-
-
+        <div class="user">
+            <div class="user-card">
+                <div class="user-infos">
+                    <span class="user-photo">
+                        <img src="img/user-test.png" alt="Image avatar de Rayan M.">
+                    </span>
+                    <span class="user-intro">
+                        <p class="user-card_name">Rayan M.</p>
+                        <p class="user-card_role"><span class="t-fr">22 ans, UI/UX Designer</span><span class="t-en">22 years old, UI/UX Designer</span></p>
+                    </span>
+                </div>
+                <span class="user-card-desc">
+                    <span class="button-advantage">
+                        <p><span class="t-fr">Couleurs et idée intéressantes</span><span class="t-en">Interesting colors and concept</span></p>
+                    </span>
+                    <span class="button-improvements">
+                        <p><span class="t-fr">Plus de liberté sur le choix des pays</span><span class="t-en">More freedom in choosing countries</span></p>
+                    </span>
+                </span>
+            </div>
+            <div class="user-card">
+                <div class="user-infos">
+                    <span class="user-photo">
+                        <img src="img/user-test2.png" alt="Image avatar de Etienne L.">
+                    </span>
+                    <span class="user-intro">
+                        <p class="user-card_name">Étienne L.</p>
+                        <p class="user-card_role"><span class="t-fr">48 ans, Chef d'entreprise</span><span class="t-en">48 years old, Business Owner</span></p>
+                    </span>
+                </div>
+                <span class="user-card-desc">
+                    <span class="button-advantage">
+                        <p><span class="t-fr">Univers graphique du voyage</span><span class="t-en">Travel-themed visual style</span></p>
+                    </span>
+                    <span class="button-improvements">
+                        <p><span class="t-fr">Trop de contenu textuel</span><span class="t-en">Too much text content</span></p>
+                    </span>
+                </span>
+            </div>
+            <div class="user-card">
+                <div class="user-infos">
+                    <span class="user-photo">
+                        <img src="img/user-test3.png" alt="Image avatar de Jacky O.">
+                    </span>
+                    <span class="user-intro">
+                        <p class="user-card_name">Jacky O.</p>
+                        <p class="user-card_role"><span class="t-fr">35 ans, ouvrier dans le BTP</span><span class="t-en">35 years old, Construction Worker</span></p>
+                    </span>
+                </div>
+                <span class="user-card-desc">
+                    <span class="button-improvements">
+                        <p><span class="t-fr">Ajout d'un bouton RETOUR</span><span class="t-en">Add a BACK button</span></p>
+                    </span>
+                    <span class="button-improvements">
+                        <p><span class="t-fr">Inaccessibilité des boutons</span><span class="t-en">Buttons not accessible</span></p>
+                    </span>
+                </span>
+            </div>
+        </div>
+    </section>
 
     <section class="future-step snap-section">
-
-
         <div class="all-futur-step-container">
             <div class="title-future-step">
                 <hgroup>
-                    <h4 class="">ET APRÈS ?</h4>
-                    <h2>Les prochaines étapes à venir</h2>
+                    <h4 class=""><span class="t-fr">ET APRÈS ?</span><span class="t-en">WHAT'S NEXT?</span></h4>
+                    <h2><span class="t-fr">Les prochaines étapes à venir</span><span class="t-en">Upcoming Next Steps</span></h2>
                 </hgroup>
             </div>
             <div class="future-step">
                 <ul>
                     <li>
                         <img src="img/future-step1.png" alt="Financement de l'app">
-                        <p>Trouver des partenaires pour financer notre appli</p>
+                        <p><span class="t-fr">Trouver des partenaires pour financer notre appli</span><span class="t-en">Find partners to fund our app</span></p>
                     </li>
                     <li>
                         <img src="img/future-step2.png" alt="Communication digitale">
-                        <p>Développer notre audience grâce à la communication digitale</p>
+                        <p><span class="t-fr">Développer notre audience grâce à la communication digitale</span><span class="t-en">Grow our audience through digital communication</span></p>
                     </li>
                     <li>
                         <img src="img/future-step3.png" alt="Nouvelles fonctionnalités">
-                        <p>Faire évoluer l’application avec de nouvelles fonctionnalités</p>
+                        <p><span class="t-fr">Faire évoluer l'application avec de nouvelles fonctionnalités</span><span class="t-en">Evolve the app with new features</span></p>
                     </li>
                 </ul>
-                <a href="#" class="button-primary">Contacter l'équipe</a>
+                <a href="#" class="button-primary"><span class="t-fr">Contacter l'équipe</span><span class="t-en">Contact the team</span></a>
             </div>
         </div>
-        </div>
     </section>
-
 
     <section class="team snap-section">
         <div class="all-team-container">
             <hgroup>
-                <h2>Notre équipe</h2>
+                <h2><span class="t-fr">Notre équipe</span><span class="t-en">Our Team</span></h2>
             </hgroup>
 
             <div class="cards-team">
@@ -227,7 +236,7 @@ Son objectif : décrocher un poste valorisant où il pourra développer ses comp
                     <img src="img\hulya (1).jpeg" alt="" class="avatar-team">
                     <div class="infos-team">
                         <h4 class="name-team">Hulya</h4>
-                        <p class="role-team">Co-fondatrice </p>
+                        <p class="role-team"><span class="t-fr">Co-fondatrice</span><span class="t-en">Co-founder</span></p>
                         <p class="role-team">UI/UX Designer</p>
                     </div>
                 </div>
@@ -235,39 +244,29 @@ Son objectif : décrocher un poste valorisant où il pourra développer ses comp
                     <img src="img\Ma-photo.jpg" alt="" class="avatar-team">
                     <div class="infos-team">
                         <h4 class="name-team">Igor</h4>
-                        <p class="role-team">Co-fondateur </p>
-                        <p class="role-team">Développeur web</p>
+                        <p class="role-team"><span class="t-fr">Co-fondateur</span><span class="t-en">Co-founder</span></p>
+                        <p class="role-team"><span class="t-fr">Développeur web</span><span class="t-en">Web Developer</span></p>
                     </div>
                 </div>
                 <div class="card-team">
                     <img src="img\Média (2).jpg" alt="" class="avatar-team">
                     <div class="infos-team">
                         <h4 class="name-team">Maxime</h4>
-                        <p class="role-team">Co-fondateur </p>
-                        <p class="role-team">Développeur web</p>
+                        <p class="role-team"><span class="t-fr">Co-fondateur</span><span class="t-en">Co-founder</span></p>
+                        <p class="role-team"><span class="t-fr">Développeur web</span><span class="t-en">Web Developer</span></p>
                     </div>
                 </div>
                 <div class="card-team">
                     <img src="img\img_Alicia (2).jpg" alt="" class="avatar-team">
                     <div class="infos-team">
                         <h4 class="name-team">Alicia</h4>
-                        <p class="role-team">Co-fondatrice</p>
-                        <p class="role-team">Développeur web</p>
+                        <p class="role-team"><span class="t-fr">Co-fondatrice</span><span class="t-en">Co-founder</span></p>
+                        <p class="role-team"><span class="t-fr">Développeur web</span><span class="t-en">Web Developer</span></p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
-
-
-
-
-
-
-
-
-
 
     <footer>
 
@@ -277,24 +276,27 @@ Son objectif : décrocher un poste valorisant où il pourra développer ses comp
 
                 <div class="name-footer">
                     <h2 class="name-project-footer">HIMA</h2>
-                    <p class="abrr-name-project-footer">Horizon International de la Mobilité des Actifs. Comparer pour
-                        mieux choisir.</p>
+                    <p class="abrr-name-project-footer">
+                        <span class="t-fr">Horizon International de la Mobilité des Actifs. Comparer pour
+                        mieux choisir.</span>
+                        <span class="t-en">Horizon International de la Mobilité des Actifs. Compare to choose better.</span>
+                    </p>
                 </div>
 
                 <div class="contact-footer">
                     <ul class="liste-cotact-footer-1">
-                        <li class="element-horisontal-footer">PRODUIT <ul class="liste-contact-footer-2">
-                                <li class="element-vertical-footer">Fonctionnalités</li>
-                                <li class="element-vertical-footer">Télécharger</li>
+                        <li class="element-horisontal-footer"><span class="t-fr">PRODUIT</span><span class="t-en">PRODUCT</span> <ul class="liste-contact-footer-2">
+                                <li class="element-vertical-footer"><span class="t-fr">Fonctionnalités</span><span class="t-en">Features</span></li>
+                                <li class="element-vertical-footer"><span class="t-fr">Télécharger</span><span class="t-en">Download</span></li>
                             </ul>
                         </li>
-                        <li class="element-horisontal-footer">PROJET
+                        <li class="element-horisontal-footer"><span class="t-fr">PROJET</span><span class="t-en">PROJECT</span>
                             <ul class="liste-contact-footer-2">
-                                <li class="element-vertical-footer">Documentation</li>
+                                <li class="element-vertical-footer"><span class="t-fr">Documentation</span><span class="t-en">Documentation</span></li>
                                 <li class="element-vertical-footer">Contact</li>
                             </ul>
                         </li>
-                        <li class="element-horisontal-footer">SUIVEZ-NOUS
+                        <li class="element-horisontal-footer"><span class="t-fr">SUIVEZ-NOUS</span><span class="t-en">FOLLOW US</span>
                             <ul class="liste-contact-footer-2">
                                 <li class="element-vertical-footer">Instagram</li>
                                 <li class="element-vertical-footer">LinkedIn</li>
@@ -311,12 +313,39 @@ Son objectif : décrocher un poste valorisant où il pourra développer ses comp
             </div>
 
             <div class="infos-blablabla-footer">
-                <p class="infos-blablabla">© 2026 HIMA. Projet étudiant, La Toile.</p>
+                <p class="infos-blablabla">
+                    <span class="t-fr">© 2026 HIMA. Projet étudiant, La Toile.</span>
+                    <span class="t-en">© 2026 HIMA. Student project, La Toile.</span>
+                </p>
 
             </div>
         </div>
 
     </footer>
+
+    <script>
+        (function () {
+            var lang = localStorage.getItem('lang') || 'fr';
+            document.documentElement.className = 'lang-' + lang;
+
+            function applyLang(l) {
+                localStorage.setItem('lang', l);
+                document.documentElement.className = 'lang-' + l;
+                document.querySelectorAll('.lang-btn').forEach(function (btn) {
+                    btn.classList.toggle('active', btn.dataset.lang === l);
+                });
+            }
+
+            document.addEventListener('click', function (e) {
+                var btn = e.target.closest('.lang-btn');
+                if (btn) applyLang(btn.dataset.lang);
+            });
+
+            document.querySelectorAll('.lang-btn').forEach(function (btn) {
+                btn.classList.toggle('active', btn.dataset.lang === lang);
+            });
+        })();
+    </script>
 
 </body>
 

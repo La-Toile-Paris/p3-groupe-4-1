@@ -1,15 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr" class="lang-fr">
 
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width" />
   <title>Projet - Page d'accueil</title>
+  <script>
+    (function(){var l=localStorage.getItem('lang')||'fr';document.documentElement.className='lang-'+l;})();
+  </script>
   <link href="index.css" rel="stylesheet" type="text/css" />
   <link href="style.css" rel="stylesheet" type="text/css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
-
-
 </head>
 
 <body>
@@ -17,16 +18,24 @@
 
     <a href="index.html"><img class="nav-logo" src="img/logo.svg" alt=""></a>
     <div class="nav-links">
-      <a class="nav-link" href="doc.html">Documentation</a>
+      <a class="nav-link" href="doc.html"><span class="t-fr">Documentation</span><span class="t-en">Documentation</span></a>
       <a class="nav-btn" href="https://www.figma.com/design/ZftiyeqBcfB2EOK8GcOpgA/HIMA-PROJECT?node-id=8376-4930&t=Nqp1gOsLv9Fpm5MH-1" target="_blank">Figma</a>
+      <div class="lang-toggle">
+        <button class="lang-btn" data-lang="fr">FR</button>
+        <span class="lang-sep">/</span>
+        <button class="lang-btn" data-lang="en">EN</button>
+      </div>
     </div>
   </nav>
 
   <header class="snap-section">
     <div class="header-content">
       <div class="header-texte">
-        <h1 class="green">Le pays qui <br> vous correspond</h1>
-        <p>HIMA compare les conditions de travail, le coût de la vie et les démarches pour vous aider à choisir votre destination d'expatriation.</p>
+        <h1 class="green"><span class="t-fr">Le pays qui <br> vous correspond</span><span class="t-en">The country that <br> fits you</span></h1>
+        <p>
+          <span class="t-fr">HIMA compare les conditions de travail, le coût de la vie et les démarches pour vous aider à choisir votre destination d'expatriation.</span>
+          <span class="t-en">HIMA compares working conditions, cost of living, and paperwork to help you choose your expat destination.</span>
+        </p>
         <div class="store-buttons">
         <a href="#" class="store-btn">
           <img src="img\icon-google-play 1.png" alt="Google Play">
@@ -35,53 +44,62 @@
           <img src="img\icon-app 1.png" alt="App Store">
         </a>
       </div>
-        
+
       </div>
       <div class="header-img">
-        <img src="img/iPhone 16 Pro.svg" alt="Image Iphone PRO">
+        <img src="img/iPhone 16 Pro.svg" alt="Image Iphone PRO" style="width:100%; max-width:400px; height:auto; display:block;">
       </div>
     </div>
   </header>
   <section class="contexte snap-section">
     <div class="contexte-texte">
-      <h2 class="green">Trop d'infos, <br/> pas de réponse</h2>
+      <h2 class="green"><span class="t-fr">Trop d'infos, <br/> pas de réponse</span><span class="t-en">Too much info, <br/> no answer</span></h2>
       <div class="description">
         <ul class="liste-difficultes">
           <li>
             <div class="difficulte-image">
             </div>
             <div class="difficulte-texte">
-              <p class="green-opacity-reduced ">De plus en plus d’actifs envisagent de travailler à l’étranger.</p>
+              <p class="green-opacity-reduced ">
+                <span class="t-fr">De plus en plus d'actifs envisagent de travailler à l'étranger.</span>
+                <span class="t-en">More and more professionals are considering working abroad.</span>
+              </p>
             </div>
           </li>
           <li>
             <div class="difficulte-image">
             </div>
             <div class="difficulte-texte">
-              <p class="green-opacity-reduced ">Comparer les pays est difficile : salaires, visas, droits du travail et coût de la vie sont dispersés sur de nombreuses sources.</p>
+              <p class="green-opacity-reduced ">
+                <span class="t-fr">Comparer les pays est difficile : salaires, visas, droits du travail et coût de la vie sont dispersés sur de nombreuses sources.</span>
+                <span class="t-en">Comparing countries is difficult: salaries, visas, labor rights, and cost of living are scattered across many sources.</span>
+              </p>
             </div>
           </li>
           <li>
             <div class="difficulte-image">
             </div>
             <div class="difficulte-texte">
-              <p class="green-opacity-reduced ">L’appli centralise ces informations en un seul endroit pour permettre une décision éclairée et en confiance.</p>
+              <p class="green-opacity-reduced ">
+                <span class="t-fr">L'appli centralise ces informations en un seul endroit pour permettre une décision éclairée et en confiance.</span>
+                <span class="t-en">The app centralizes this information in one place, so you can make an informed, confident decision.</span>
+              </p>
             </div>
           </li>
         </ul>
       </div>
       <ul class="contexte-chiffres">
         <li>
-          <h2 class="green">120+</h1>
-            <p class="description">Pays référencés</p>
+          <h2 class="green">120+</h2>
+            <p class="description"><span class="t-fr">Pays référencés</span><span class="t-en">Countries listed</span></p>
         </li>
         <li>
-          <h2 class="green">3</h1>
-            <p class="description">Critères clés comparés</p>
+          <h2 class="green">3</h2>
+            <p class="description"><span class="t-fr">Critères clés comparés</span><span class="t-en">Key criteria compared</span></p>
         </li>
         <li>
-          <h2 class="green">1</h1>
-            <p class="description">Top 3 personnalisé</p>
+          <h2 class="green">1</h2>
+            <p class="description"><span class="t-fr">Top 3 personnalisé</span><span class="t-en">Personalized Top 3</span></p>
         </li>
       </ul>
     </div>
@@ -91,8 +109,11 @@
   </section>
   <section class="features">
     <div class="features-accroche snap-section">
-      <h2 class="green text-align">Trois outils, une décision</h2>
-      <p class="description text-align">Des explications courtes et illustrées, pensées pour aller droit au but.</p>
+      <h2 class="green text-align"><span class="t-fr">Trois outils, une décision</span><span class="t-en">Three tools, one decision</span></h2>
+      <p class="description text-align">
+        <span class="t-fr">Des explications courtes et illustrées, pensées pour aller droit au but.</span>
+        <span class="t-en">Short, illustrated explanations designed to get straight to the point.</span>
+      </p>
     </div>
     <div class="features-container">
       <div class="feature snap-section" id="feature1">
@@ -101,10 +122,10 @@
         </div>
         <div class="feature-text">
           <p class="number-feature">1</p>
-          <h2 class="green">Test personnalisé</h5>
+          <h2 class="green"><span class="t-fr">Test personnalisé</span><span class="t-en">Personalized test</span></h2>
           <p class="green-opacity-reduced">
-            Répondez à quelques questions sur vos priorités professionnelles et votre mode de vie. HIMA vous propose un
-            Top 3 des pays qui vous correspondent, avec un pourcentage de match.
+            <span class="t-fr">Répondez à quelques questions sur vos priorités professionnelles et votre mode de vie. HIMA vous propose un Top 3 des pays qui vous correspondent, avec un pourcentage de match.</span>
+            <span class="t-en">Answer a few questions about your professional priorities and lifestyle. HIMA suggests a Top 3 of countries that match you, along with a match percentage.</span>
           </p>
         </div>
       </div>
@@ -115,10 +136,10 @@
         </div>
         <div class="feature-text">
           <p class="number-feature">2</p>
-          <h2 class="green">Carte interactive</h5>
+          <h2 class="green"><span class="t-fr">Carte interactive</span><span class="t-en">Interactive map</span></h2>
           <p class="green-opacity-reduced">
-            Explorez tous les pays sur une carte du monde et filtrez selon vos critères : salaire, congés, droits du
-            travail, sécurité de l'emploi.
+            <span class="t-fr">Explorez tous les pays sur une carte du monde et filtrez selon vos critères : salaire, congés, droits du travail, sécurité de l'emploi.</span>
+            <span class="t-en">Explore every country on a world map and filter by your criteria: salary, time off, labor rights, job security.</span>
           </p>
         </div>
       </div>
@@ -129,10 +150,10 @@
         </div>
         <div class="feature-text">
           <p class="number-feature">3</p>
-          <h2 class="green">Démarches d'expatriation</h5>
+          <h2 class="green"><span class="t-fr">Démarches d'expatriation</span><span class="t-en">Expatriation steps</span></h2>
           <p class="green-opacity-reduced">
-            Une fois votre destination choisie, suivez la liste des étapes à accomplir avant, pendant et après votre
-            départ.
+            <span class="t-fr">Une fois votre destination choisie, suivez la liste des étapes à accomplir avant, pendant et après votre départ.</span>
+            <span class="t-en">Once you've chosen your destination, follow the list of steps to complete before, during, and after your move.</span>
           </p>
         </div>
       </div>
@@ -144,24 +165,29 @@
 <section id="temoignages" class="snap-section">
   <div class="containet-section-temoinages">
     <hgroup class="h-temoinages">
-      <h2>Des témoignages selon votre profil</h2>
-      <p>HIMA propose des témoignages d'expatriés adaptés à votre domaine <br>
-        et au pays choisi, pour avoir un aperçu concret avant de partir.</p>
+      <h2><span class="t-fr">Des témoignages selon votre profil</span><span class="t-en">Testimonials matched to your profile</span></h2>
+      <p>
+        <span class="t-fr">HIMA propose des témoignages d'expatriés adaptés à votre domaine <br> et au pays choisi, pour avoir un aperçu concret avant de partir.</span>
+        <span class="t-en">HIMA offers testimonials from expats matched to your field <br> and chosen country, giving you a real sense of what to expect before you go.</span>
+      </p>
     </hgroup>
 
     <div class="swiper swiper-temoinages">
       <div class="swiper-wrapper">
 
-        <div class="swiper-slide">          <!-- ← 1 slide -->
+        <div class="swiper-slide">
           <div class="card-temoinages">
             <div class="name-pic">
             <img src="https://img.freepik.com/photos-gratuite/vue-face-belle-femme-enceinte-maison_23-2148765052.jpg?semt=ais_hybrid&w=740&q=80" alt="Emma">
             <h3>Emma</h3>
             </div>
-            <p>"Cette application m’a permis de découvrir le pays de mes rêves. Maintenant, je vis ma meilleure vie en Australie."</p>
+            <p>
+              <span class="t-fr">"Cette application m'a permis de découvrir le pays de mes rêves. Maintenant, je vis ma meilleure vie en Australie."</span>
+              <span class="t-en">"This app helped me discover my dream country. Now I'm living my best life in Australia."</span>
+            </p>
             <div class="stars-temoinages">★★★★★</div>
           </div>
-        </div>                             <!-- ← fermeture de la slide -->
+        </div>
 
         <div class="swiper-slide">
           <div class="card-temoinages">
@@ -169,7 +195,10 @@
             <img src="img/thomas.png" alt="Thomas">
             <h3>Thomas</h3>
                  </div>
-            <p>"Grâce à Hima, j’ai commencé ma nouvelle vie au Canada, où j’ai pu évoluer dans ma carrière.."</p>
+            <p>
+              <span class="t-fr">"Grâce à Hima, j'ai commencé ma nouvelle vie au Canada, où j'ai pu évoluer dans ma carrière."</span>
+              <span class="t-en">"Thanks to Hima, I started my new life in Canada, where I was able to grow in my career."</span>
+            </p>
             <div class="stars-temoinages">★★★★★</div>
           </div>
         </div>
@@ -179,7 +208,10 @@
              <div class="name-pic">
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfsR9SSXeI69u-SX86R_dTSHrYbFBQCNCifMVyDBqtQw&s" alt="Lucas">
             <h3>Lucas</h3></div>
-            <p>"J'ai trouvé mon pays idéal rapidement et je vis maintenant aux Pays-Bas depuis 3 ans."</p>
+            <p>
+              <span class="t-fr">"J'ai trouvé mon pays idéal rapidement et je vis maintenant aux Pays-Bas depuis 3 ans."</span>
+              <span class="t-en">"I found my ideal country quickly, and I've now been living in the Netherlands for 3 years."</span>
+            </p>
             <div class="stars-temoinages">★★★★☆</div>
           </div>
         </div>
@@ -190,7 +222,10 @@
 
             <img src="https://img.magnific.com/photos-gratuite/portrait-belle-femme_23-2148860615.jpg" alt="Sarah">
             <h3>Sarah</h3></div>
-            <p>"Avoir un listing des démarches à effectuer avant mon arrivée en Corée a été essentiel pour moi, merci Hima !"</p>
+            <p>
+              <span class="t-fr">"Avoir un listing des démarches à effectuer avant mon arrivée en Corée a été essentiel pour moi, merci Hima !"</span>
+              <span class="t-en">"Having a checklist of steps to complete before arriving in Korea was essential for me, thank you Hima!"</span>
+            </p>
             <div class="stars-temoinages">★★★★★</div>
           </div>
         </div>
@@ -205,9 +240,9 @@
 
   <section class="install snap-section">
     <div class="container-section-install">
-      <h4 class="h-install titre-section">Prêt à explorer ?</h4>
-      <h2 class="h-install">Téléchargez HIMA</h2>
-      <p class="p-install">Disponible bientôt sur l'App Store et Google Play.</p>
+      <h4 class="h-install titre-section"><span class="t-fr">Prêt à explorer ?</span><span class="t-en">Ready to explore?</span></h4>
+      <h2 class="h-install"><span class="t-fr">Téléchargez HIMA</span><span class="t-en">Download HIMA</span></h2>
+      <p class="p-install"><span class="t-fr">Disponible bientôt sur l'App Store et Google Play.</span><span class="t-en">Coming soon on the App Store and Google Play.</span></p>
       <div class="store-buttons">
 
         <a href="#" class="store-btn">
@@ -233,24 +268,26 @@
 
         <div class="name-footer">
           <h2 class="name-project-footer">HIMA</h2>
-          <p class="abrr-name-project-footer">Horizon International de la Mobilité des Actifs. Comparer pour mieux
-            choisir.</p>
+          <p class="abrr-name-project-footer">
+            <span class="t-fr">Horizon International de la Mobilité des Actifs. Comparer pour mieux choisir.</span>
+            <span class="t-en">Horizon International de la Mobilité des Actifs. Compare to choose better.</span>
+          </p>
         </div>
 
         <div class="contact-footer">
           <ul class="liste-cotact-footer-1">
-            <li class="element-horisontal-footer"><h4>PRODUIT</h4> <ul class="liste-contact-footer-2">
-                <li class="element-vertical-footer">Fonctionnalités</li>
-                <li class="element-vertical-footer">Télécharger</li>
+            <li class="element-horisontal-footer"><h4><span class="t-fr">PRODUIT</span><span class="t-en">PRODUCT</span></h4> <ul class="liste-contact-footer-2">
+                <li class="element-vertical-footer"><span class="t-fr">Fonctionnalités</span><span class="t-en">Features</span></li>
+                <li class="element-vertical-footer"><span class="t-fr">Télécharger</span><span class="t-en">Download</span></li>
               </ul>
             </li>
-            <li class="element-horisontal-footer"><h4>PROJET</h4>
+            <li class="element-horisontal-footer"><h4><span class="t-fr">PROJET</span><span class="t-en">PROJECT</span></h4>
               <ul class="liste-contact-footer-2">
                 <li class="element-vertical-footer">Documentation</li>
                 <li class="element-vertical-footer">Contact</li>
               </ul>
             </li>
-            <li class="element-horisontal-footer"><h4>SUIVEZ-NOUS</h4>
+            <li class="element-horisontal-footer"><h4><span class="t-fr">SUIVEZ-NOUS</span><span class="t-en">FOLLOW US</span></h4>
               <ul class="liste-contact-footer-2">
                 <li class="element-vertical-footer"><a href="google.fr">Instagram</a></li>
                 <li class="element-vertical-footer">LinkedIn</li>
@@ -263,12 +300,39 @@
       </div>
 
       <div class="infos-blablabla-footer">
-        <p class="infos-blablabla">© 2026 HIMA. Projet étudiant, La Toile.</p>
+        <p class="infos-blablabla">
+          <span class="t-fr">© 2026 HIMA. Projet étudiant, La Toile.</span>
+          <span class="t-en">© 2026 HIMA. Student project, La Toile.</span>
+        </p>
 
       </div>
     </div>
 
   </footer>
+
+  <script>
+    (function () {
+      var lang = localStorage.getItem('lang') || 'fr';
+      document.documentElement.className = 'lang-' + lang;
+
+      function applyLang(l) {
+        localStorage.setItem('lang', l);
+        document.documentElement.className = 'lang-' + l;
+        document.querySelectorAll('.lang-btn').forEach(function (btn) {
+          btn.classList.toggle('active', btn.dataset.lang === l);
+        });
+      }
+
+      document.addEventListener('click', function (e) {
+        var btn = e.target.closest('.lang-btn');
+        if (btn) applyLang(btn.dataset.lang);
+      });
+
+      document.querySelectorAll('.lang-btn').forEach(function (btn) {
+        btn.classList.toggle('active', btn.dataset.lang === lang);
+      });
+    })();
+  </script>
 
 </body>
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
