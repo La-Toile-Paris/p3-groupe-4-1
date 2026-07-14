@@ -147,8 +147,8 @@ header #button-download:hover {
 .contexte-texte ul li p { font-size: 12px; }
 
 .contexte-image {
-  flex: 1 1 320px;
-  max-width: 480px;
+  flex: 1 1 200px;
+  max-width: 250px;
 }
 .contexte-image img {
   width: 100%;
@@ -164,8 +164,19 @@ header #button-download:hover {
   background-color: white;
 }
 
-.features p:not(.number-feature) { color: var(--green-opacity-reduced); }
-.number-feature p { padding: 16px; border-radius: 100%; }
+.number-feature {
+  font-family: caprasimo;
+  background-color: var(--color-secondary);
+  color: #4B1528;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  font-size: 12px;
+}
 
 .features-container {
   display: flex;
@@ -202,13 +213,23 @@ header #button-download:hover {
   background-color: var(--color-beige);
 }
 
+.feature-img {
+  flex: 1 1 360px;
+  max-width: 300px;
+  display: flex;
+  justify-content: center;
+}
+
 .feature img {
   width: 100%;
-  max-width: 380px;
+  max-width: 500px;
+  max-height: 70vh;
   height: auto;
   object-fit: contain;
   border-radius: 15px;
 }
+
+
 
 .feature-text {
   display: flex;
@@ -219,12 +240,7 @@ header #button-download:hover {
   max-width: 460px;
 }
 .feature-text p { line-height: 1.3; font-size: 19px; }
-.feature-text p:first-of-type {
-  width: 12px;
-  height: 12px;
-  display: flex;
-  align-items: center;
-}
+
 
 
 #temoignages { min-height: 100vh; }
@@ -362,7 +378,7 @@ header #button-download:hover {
 header .header-img {
   flex: 1 1 45%;
   min-width: 0;
-  max-width: 500px ;
+  max-width: 600px;
   width: auto;
   height: auto;
 }

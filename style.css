@@ -68,11 +68,14 @@ button, a {
 .number-feature {
   font-family: caprasimo;
   background-color: var(--color-secondary);
-  border-radius: 100%;
-  width: fit-content;
-  height: fit-content;
-  padding: 8px;
   color: #4B1528;
+  width: 66px;
+  height: 66px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
 }
 
 
@@ -253,4 +256,13 @@ footer {
 
 @media (max-width: 480px) {
   .nav-link { display: none; }
+}
+
+section.future-step.snap-section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-beige);
+  padding: var(--section-pad-y) var(--section-pad-x);
 }

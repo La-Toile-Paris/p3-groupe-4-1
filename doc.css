@@ -58,7 +58,7 @@ header {
 
 .header-img {
   flex: 1 1 320px;
-  max-width: 500px;
+  max-width: 650px;
   width: 100%;
   height: auto;
 }
@@ -259,10 +259,11 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 48px;
-  padding: var(--section-pad-y) var(--section-pad-x);
+  padding: clamp(120px, 15vh, 160px) var(--section-pad-x) var(--section-pad-y);
 }
+
 
 .test-section_title {
   font-size: clamp(28px, 4vw, 42px);
@@ -302,9 +303,9 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 48px;
-  padding: var(--section-pad-y) var(--section-pad-x);
+  padding: clamp(120px, 15vh, 160px) var(--section-pad-x) var(--section-pad-y);
 }
 
 .retour-title {
@@ -544,4 +545,23 @@ section.future-step.snap-section {
   max-width: 100%;
   white-space: normal;
   word-wrap: break-word;
+}
+
+.evolution-etape.number-feature {
+  width: auto;
+  height: auto;
+  border-radius: 8px;
+  display: inline-block;
+  padding: 6px 10px;
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+section.future-step.snap-section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-beige);
+  padding: var(--section-pad-y) var(--section-pad-x);
 }
